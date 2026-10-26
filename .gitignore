@@ -1,0 +1,8 @@
+.venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+reports/exploratory_20261026/alpaca_randomized_250.json
+reports/exploratory_20261026/tiingo_randomized_250.json

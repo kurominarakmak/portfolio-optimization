@@ -1,0 +1,22 @@
+{
+  "smoke": false,
+  "elapsed_seconds": 602.9923537920004,
+  "providers": {
+    "alpaca": {
+      "seconds": 296.96634858299876,
+      "attempted_accounts": 250,
+      "failed_accounts": [],
+      "cached_fit_inputs": 3402,
+      "estimated_full_seconds_linear": 296.96634858299876
+    },
+    "tiingo": {
+      "seconds": 305.64280391600187,
+      "attempted_accounts": 250,
+      "failed_accounts": [],
+      "cached_fit_inputs": 3402,
+      "estimated_full_seconds_linear": 305.64280391600187
+    }
+  },
+  "linear_full_run_estimate_seconds": 602.6091524990006,
+  "estimate_limit": "Linear extrapolation of account-fold work; cache hits, asset counts, solver conditioning and disk volume can change runtime."
+}

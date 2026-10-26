@@ -1,0 +1,7210 @@
+{
+  "lane": "EXPLORATORY_REAL_MARKET",
+  "validated": false,
+  "requested_count": 250,
+  "groups": [
+    "diversified",
+    "concentrated",
+    "training_correlated",
+    "cash_boundary",
+    "breadth"
+  ],
+  "holdings_seed": 42,
+  "scenario_seed": 4091952314,
+  "streams": {
+    "holdings_spawn_key": [
+      0
+    ],
+    "scenario_spawn_key": [
+      1
+    ]
+  },
+  "training_start": "2020-07-28",
+  "training_end": "2022-07-27",
+  "definitions_sha256": "fcce78c87351eb83747af367a22344952b1b3798fc0c51f91cea61fa6e49027f",
+  "portfolios": [
+    {
+      "portfolio_id": "diversified-000",
+      "group": "diversified",
+      "symbols": [
+        "ZBRA",
+        "HSIC",
+        "TTWO",
+        "MRNA",
+        "UAL",
+        "DLTR",
+        "ALGN"
+      ],
+      "weights": [
+        0.14082907135410402,
+        0.02677359567027065,
+        0.2086893110472053,
+        0.08089824793765032,
+        0.3118507978400114,
+        0.0996896170265718,
+        0.05606601132190475,
+        0.07520334780228151
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18663328883088828,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-001",
+      "group": "diversified",
+      "symbols": [
+        "UAL",
+        "FFIV",
+        "ALGN",
+        "ADSK",
+        "CHTR",
+        "IDXX",
+        "HSIC",
+        "HOLX",
+        "MRNA",
+        "VRTX"
+      ],
+      "weights": [
+        0.06316947951533357,
+        0.11174107628471827,
+        0.1346869915126542,
+        0.09800006060464876,
+        0.09359186083055883,
+        0.11958434748320312,
+        0.07244078994536159,
+        0.08290969151631292,
+        0.02718511565226326,
+        0.12041890494713481,
+        0.0762716817078107
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10045969901692992,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-002",
+      "group": "diversified",
+      "symbols": [
+        "ULTA",
+        "SNPS",
+        "MELI",
+        "FFIV",
+        "HSIC"
+      ],
+      "weights": [
+        0.08419786226905078,
+        0.1486759494162133,
+        0.0828142733899178,
+        0.2195811671758109,
+        0.36639441936182476,
+        0.09833632838718247
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2281828148210424,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-003",
+      "group": "diversified",
+      "symbols": [
+        "LULU",
+        "ADSK",
+        "DLTR",
+        "HOLX",
+        "CDNS",
+        "CHTR",
+        "ZBRA",
+        "ULTA"
+      ],
+      "weights": [
+        0.04635477099556474,
+        0.2866596422408223,
+        0.053294413592454716,
+        0.16441879202804824,
+        0.1275983060345675,
+        0.045216351971141336,
+        0.0999178585163511,
+        0.09381470653987738,
+        0.08272515808117265
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.15815042455749484,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-004",
+      "group": "diversified",
+      "symbols": [
+        "ULTA",
+        "AMD",
+        "ALGN",
+        "ZBRA",
+        "MRNA",
+        "FFIV"
+      ],
+      "weights": [
+        0.26228878982131226,
+        0.10475481171807803,
+        0.04683194101429009,
+        0.227904337634988,
+        0.1356151850433535,
+        0.13954842283571364,
+        0.08305651193226424
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1786662225606595,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-005",
+      "group": "diversified",
+      "symbols": [
+        "VRTX",
+        "MELI",
+        "FFIV",
+        "HOLX",
+        "SNPS",
+        "CHTR",
+        "LULU",
+        "DLTR"
+      ],
+      "weights": [
+        0.160960006398534,
+        0.11343861129586189,
+        0.10812761345454311,
+        0.1399008800985965,
+        0.05261256630355832,
+        0.10039711668907078,
+        0.08448948460308141,
+        0.14640920486557435,
+        0.0936645162911795
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12023511229873662,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-006",
+      "group": "diversified",
+      "symbols": [
+        "UAL",
+        "MRNA",
+        "ALGN",
+        "CHTR",
+        "LULU",
+        "TTWO"
+      ],
+      "weights": [
+        0.04747592664764518,
+        0.1574615123278814,
+        0.07821429801153586,
+        0.1701246143086037,
+        0.16860492650466666,
+        0.2959075397708272,
+        0.08221118242884007
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18485552413394038,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-007",
+      "group": "diversified",
+      "symbols": [
+        "ULTA",
+        "CHTR",
+        "FFIV",
+        "HOLX",
+        "WDAY",
+        "CDNS",
+        "LULU"
+      ],
+      "weights": [
+        0.18009662806262614,
+        0.2251163677408304,
+        0.1437820761913375,
+        0.13107742900908073,
+        0.07405438002672925,
+        0.1737920923594164,
+        0.07151214672089684,
+        0.0005688798890827296
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1617688056146413,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-008",
+      "group": "diversified",
+      "symbols": [
+        "FFIV",
+        "ALGN",
+        "HOLX",
+        "WDAY",
+        "AKAM",
+        "CDNS"
+      ],
+      "weights": [
+        0.062225819192964,
+        0.0740550455194624,
+        0.16908707589683825,
+        0.0426881512311076,
+        0.3663758561803353,
+        0.22874743438096942,
+        0.05682061759832302
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.22955415914400262,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-009",
+      "group": "diversified",
+      "symbols": [
+        "HOLX",
+        "WDAY",
+        "INCY",
+        "UAL",
+        "ULTA"
+      ],
+      "weights": [
+        0.08584425322515433,
+        0.10390104786314192,
+        0.15698045158835328,
+        0.5240452205214029,
+        0.08545050588505017,
+        0.04377852091689735
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.32664926674073463,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-010",
+      "group": "diversified",
+      "symbols": [
+        "SNPS",
+        "IDXX",
+        "WDAY",
+        "FFIV",
+        "CDNS"
+      ],
+      "weights": [
+        0.05681041210814545,
+        0.14694358250980796,
+        0.40880571185588466,
+        0.2325521915532017,
+        0.09862915794496388,
+        0.05625894402799628
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2589152507869855,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-011",
+      "group": "diversified",
+      "symbols": [
+        "TTWO",
+        "INCY",
+        "WDAY",
+        "AKAM",
+        "ZBRA"
+      ],
+      "weights": [
+        0.3554142341430599,
+        0.12914416926431252,
+        0.09303585375671963,
+        0.3153840586957354,
+        0.07990460894162947,
+        0.02711707519854313
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2582403511475421,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-012",
+      "group": "diversified",
+      "symbols": [
+        "MELI",
+        "LULU",
+        "VRTX",
+        "ADSK",
+        "WDAY"
+      ],
+      "weights": [
+        0.13824685120903116,
+        0.1616873411910172,
+        0.3901579954805589,
+        0.12319751221719152,
+        0.1628574928317058,
+        0.023852807070495342
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.23974739600111664,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-013",
+      "group": "diversified",
+      "symbols": [
+        "ZBRA",
+        "DLTR",
+        "MELI",
+        "AKAM",
+        "VRTX",
+        "LULU",
+        "SNPS",
+        "ADSK",
+        "TTWO"
+      ],
+      "weights": [
+        0.029872901849873738,
+        0.044929510616472206,
+        0.04227399921365522,
+        0.2405729471955301,
+        0.1969233478638671,
+        0.19084141250944395,
+        0.02777266372371238,
+        0.08897784508019052,
+        0.0548002982392703,
+        0.08303507370798442
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.15635900870176883,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-014",
+      "group": "diversified",
+      "symbols": [
+        "TTWO",
+        "AKAM",
+        "HSIC",
+        "HOLX",
+        "ADSK",
+        "SNPS",
+        "ADBE"
+      ],
+      "weights": [
+        0.09501038491597769,
+        0.1117677301744232,
+        0.13559727256170814,
+        0.06018667494817021,
+        0.14088212444027295,
+        0.31531370075421195,
+        0.13536468708952537,
+        0.005877425115710544
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18115670042467297,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-015",
+      "group": "diversified",
+      "symbols": [
+        "MELI",
+        "ADBE",
+        "VRTX",
+        "FFIV",
+        "ZBRA",
+        "ALGN",
+        "CDNS",
+        "ADSK",
+        "DLTR",
+        "AMD"
+      ],
+      "weights": [
+        0.07803599561681354,
+        0.10061772064445575,
+        0.032508821786087876,
+        0.07645865756130477,
+        0.2414736107171502,
+        0.03289410989870992,
+        0.05228737211103676,
+        0.14521315504551055,
+        0.11245177593741162,
+        0.08026858834421952,
+        0.047790192337299524
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12770099961883297,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-016",
+      "group": "diversified",
+      "symbols": [
+        "AKAM",
+        "MRNA",
+        "LULU",
+        "INCY",
+        "ADBE",
+        "DLTR"
+      ],
+      "weights": [
+        0.20407063790012464,
+        0.1283921756616313,
+        0.08134849690904229,
+        0.0503747051240607,
+        0.12889641729488477,
+        0.3440013212514731,
+        0.06291624585878332
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20619421429696663,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-017",
+      "group": "diversified",
+      "symbols": [
+        "ZBRA",
+        "TTWO",
+        "LULU",
+        "IDXX",
+        "CDNS",
+        "ADSK",
+        "ALGN",
+        "UAL"
+      ],
+      "weights": [
+        0.13929768359065967,
+        0.07194366423065678,
+        0.1335748968644598,
+        0.11317713410086498,
+        0.1644132870402328,
+        0.2284468367460783,
+        0.11808804259517375,
+        0.014294843590854511,
+        0.016763611241019483
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1488808854260432,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-018",
+      "group": "diversified",
+      "symbols": [
+        "FFIV",
+        "ADBE",
+        "MRNA",
+        "ULTA",
+        "ALGN",
+        "LULU",
+        "WDAY",
+        "IDXX"
+      ],
+      "weights": [
+        0.09930668791845533,
+        0.047025025853782515,
+        0.1944095156546338,
+        0.13077273012755836,
+        0.11920088082157088,
+        0.14282786505167802,
+        0.17606193166165848,
+        0.051806138904707213,
+        0.03858922400595564
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13674919508585573,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-019",
+      "group": "diversified",
+      "symbols": [
+        "TTWO",
+        "ALGN",
+        "INCY",
+        "CDNS",
+        "ADSK",
+        "UAL",
+        "MRNA"
+      ],
+      "weights": [
+        0.2562841393302732,
+        0.23304667781834307,
+        0.02007621306714742,
+        0.1404569893133849,
+        0.060167231652743854,
+        0.17826264050522786,
+        0.04691459320373991,
+        0.06479151510913982
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18192011854278461,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-020",
+      "group": "diversified",
+      "symbols": [
+        "ALGN",
+        "WDAY",
+        "VRTX",
+        "INCY",
+        "DLTR",
+        "CDNS",
+        "ADSK",
+        "AMD",
+        "IDXX"
+      ],
+      "weights": [
+        0.10808123478030449,
+        0.04648319439793754,
+        0.042062892288618384,
+        0.24442735228026474,
+        0.09289951123530522,
+        0.1071960096922738,
+        0.1374839053522249,
+        0.14411365864213654,
+        0.057195098972725684,
+        0.020057142358208893
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1388217009494001,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-021",
+      "group": "diversified",
+      "symbols": [
+        "AMD",
+        "VRTX",
+        "UAL",
+        "HSIC",
+        "CDNS",
+        "TTWO",
+        "ADBE",
+        "INCY",
+        "MRNA",
+        "ADSK"
+      ],
+      "weights": [
+        0.11060880149032365,
+        0.12606729302945754,
+        0.039694611296032294,
+        0.06031290694977905,
+        0.040439943222355355,
+        0.16512532938986366,
+        0.16999451388319126,
+        0.056406379578754495,
+        0.0748915385992481,
+        0.09997155248352536,
+        0.056487130077469166
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11311600579519793,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-022",
+      "group": "diversified",
+      "symbols": [
+        "CDNS",
+        "HSIC",
+        "CHTR",
+        "UAL",
+        "ZBRA",
+        "ALGN",
+        "VRTX"
+      ],
+      "weights": [
+        0.1461638423475775,
+        0.07491177922084911,
+        0.19839414594481777,
+        0.17798869831911032,
+        0.11230726389409505,
+        0.1326860571723401,
+        0.10463975917144298,
+        0.05290845392976717
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.14198315233836095,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-023",
+      "group": "diversified",
+      "symbols": [
+        "MELI",
+        "ADSK",
+        "ALGN",
+        "IDXX",
+        "TTWO",
+        "INCY",
+        "UAL",
+        "HOLX",
+        "AMD",
+        "SNPS"
+      ],
+      "weights": [
+        0.05116853230844775,
+        0.0771246710456944,
+        0.1337713864020071,
+        0.0709953155524804,
+        0.09504900017808181,
+        0.07231243251149014,
+        0.059187301532817156,
+        0.029474219313417357,
+        0.11512244800015489,
+        0.21600722783377205,
+        0.07978746532163704
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11641515896270334,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-024",
+      "group": "diversified",
+      "symbols": [
+        "AKAM",
+        "MELI",
+        "INCY",
+        "ZBRA",
+        "ADBE",
+        "AMD",
+        "FFIV",
+        "TTWO",
+        "UAL",
+        "LULU"
+      ],
+      "weights": [
+        0.10495531446395479,
+        0.03621061390823894,
+        0.12038942713598329,
+        0.03779866230514295,
+        0.15096452377342381,
+        0.07060364673589521,
+        0.032058991024318216,
+        0.23666725989000612,
+        0.021506228950316,
+        0.13499430138923144,
+        0.05385103042348943
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13464942558081405,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-025",
+      "group": "diversified",
+      "symbols": [
+        "IDXX",
+        "ADBE",
+        "AKAM",
+        "ULTA",
+        "HOLX",
+        "LULU",
+        "DLTR"
+      ],
+      "weights": [
+        0.11991592467690784,
+        0.21937122900498407,
+        0.04495228772086084,
+        0.23584497359606765,
+        0.1449507598816523,
+        0.15251941472946634,
+        0.048608671379965294,
+        0.033836739010095554
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.16792774734799407,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-026",
+      "group": "diversified",
+      "symbols": [
+        "TTWO",
+        "MELI",
+        "DLTR",
+        "AMD",
+        "ALGN",
+        "ULTA",
+        "LULU"
+      ],
+      "weights": [
+        0.09713320337836433,
+        0.1414272870214493,
+        0.1931344219069717,
+        0.16347046429499643,
+        0.05900694116685483,
+        0.20985425343633057,
+        0.03782240349880249,
+        0.09815102529623043
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.15204481909926776,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-027",
+      "group": "diversified",
+      "symbols": [
+        "MELI",
+        "SNPS",
+        "TTWO",
+        "ULTA",
+        "INCY",
+        "FFIV"
+      ],
+      "weights": [
+        0.17469982898996098,
+        0.11316579042010758,
+        0.2758587617997877,
+        0.09994764543228078,
+        0.16377416868713018,
+        0.14383351114636309,
+        0.0287202935243697
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.17774902717767574,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-028",
+      "group": "diversified",
+      "symbols": [
+        "UAL",
+        "HSIC",
+        "AMD",
+        "IDXX",
+        "ADBE",
+        "DLTR",
+        "INCY",
+        "MRNA"
+      ],
+      "weights": [
+        0.22066881736177602,
+        0.0482255137966253,
+        0.07774730972216981,
+        0.06619599355847774,
+        0.26822910416837586,
+        0.1497717375678581,
+        0.09573814383820678,
+        0.05088982388561483,
+        0.022533556100895726
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.16808873407733346,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-029",
+      "group": "diversified",
+      "symbols": [
+        "INCY",
+        "VRTX",
+        "CDNS",
+        "IDXX",
+        "HSIC",
+        "TTWO",
+        "AMD",
+        "ALGN",
+        "SNPS"
+      ],
+      "weights": [
+        0.032347736361597844,
+        0.09315064859501469,
+        0.19851057278747558,
+        0.0406156209380594,
+        0.14026223603955015,
+        0.16002626710422987,
+        0.06704370037064784,
+        0.03319093558161473,
+        0.13945972845971788,
+        0.09539255376209205
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1302066477155999,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-030",
+      "group": "diversified",
+      "symbols": [
+        "CDNS",
+        "ULTA",
+        "ALGN",
+        "ADBE",
+        "IDXX",
+        "INCY",
+        "ZBRA",
+        "MELI",
+        "HOLX"
+      ],
+      "weights": [
+        0.05091762985020731,
+        0.10260975850832618,
+        0.04820526364884358,
+        0.10284751914419991,
+        0.0476372872289151,
+        0.10215982280593859,
+        0.08471505743923528,
+        0.35813896886511715,
+        0.059524075684442464,
+        0.0432446168247744
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.17958204218565282,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-031",
+      "group": "diversified",
+      "symbols": [
+        "INCY",
+        "AKAM",
+        "SNPS",
+        "CHTR",
+        "ADSK"
+      ],
+      "weights": [
+        0.35613477814161015,
+        0.0659399717432471,
+        0.1395899590948299,
+        0.16665469958190246,
+        0.18528347720268581,
+        0.08639711423572463
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2202336339208836,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-032",
+      "group": "diversified",
+      "symbols": [
+        "HOLX",
+        "SNPS",
+        "ADSK",
+        "DLTR",
+        "WDAY",
+        "ZBRA",
+        "FFIV",
+        "ALGN",
+        "CDNS"
+      ],
+      "weights": [
+        0.07667279075176875,
+        0.07154236091535429,
+        0.13072708421730678,
+        0.12966044816445504,
+        0.08032229658353153,
+        0.11423105294281283,
+        0.06740991193041491,
+        0.08203024900671228,
+        0.203240850613257,
+        0.04416295487438653
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11892910131785686,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-033",
+      "group": "diversified",
+      "symbols": [
+        "IDXX",
+        "HSIC",
+        "ULTA",
+        "LULU",
+        "UAL",
+        "ZBRA",
+        "AMD",
+        "MRNA",
+        "SNPS"
+      ],
+      "weights": [
+        0.03773089152657431,
+        0.19212010058759754,
+        0.04391628243161759,
+        0.1626172070065691,
+        0.13343602219065917,
+        0.018727373087320188,
+        0.11249043000461938,
+        0.13368367905335582,
+        0.10805553104847283,
+        0.057222483063213994
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13033846886917952,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-034",
+      "group": "diversified",
+      "symbols": [
+        "AMD",
+        "ULTA",
+        "LULU",
+        "ALGN",
+        "AKAM",
+        "INCY"
+      ],
+      "weights": [
+        0.21776500047702727,
+        0.2746773114367715,
+        0.01698853505972325,
+        0.177909789706213,
+        0.16950837634257526,
+        0.09015812979644679,
+        0.05299285718124313
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.19447954537859793,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-035",
+      "group": "diversified",
+      "symbols": [
+        "AMD",
+        "IDXX",
+        "FFIV",
+        "HOLX",
+        "LULU",
+        "AKAM",
+        "ZBRA",
+        "ULTA",
+        "SNPS"
+      ],
+      "weights": [
+        0.07108019368787453,
+        0.04518020498889763,
+        0.10675143386165177,
+        0.0980147839317996,
+        0.14948552533570234,
+        0.09837548018138785,
+        0.046754004372207426,
+        0.21398076980758124,
+        0.13303818342342166,
+        0.037339420409475965
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12718716608147113,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-036",
+      "group": "diversified",
+      "symbols": [
+        "HSIC",
+        "CHTR",
+        "IDXX",
+        "TTWO",
+        "VRTX",
+        "FFIV",
+        "ADBE"
+      ],
+      "weights": [
+        0.1926728274600456,
+        0.09700248990617744,
+        0.1829931288598588,
+        0.20920340429351816,
+        0.04244621670979483,
+        0.09414418995872584,
+        0.15610281207843238,
+        0.025434930733446916
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1594646845235338,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-037",
+      "group": "diversified",
+      "symbols": [
+        "FFIV",
+        "ADBE",
+        "IDXX",
+        "MRNA",
+        "HOLX",
+        "AKAM",
+        "TTWO"
+      ],
+      "weights": [
+        0.018361661823433333,
+        0.09071304918124615,
+        0.013965551326302894,
+        0.11810433188771124,
+        0.26859993015908185,
+        0.2916051911438462,
+        0.12135925687752455,
+        0.07729102760085371
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20059115991213122,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-038",
+      "group": "diversified",
+      "symbols": [
+        "TTWO",
+        "ALGN",
+        "VRTX",
+        "HSIC",
+        "ADBE"
+      ],
+      "weights": [
+        0.17422853502705324,
+        0.15982124654975605,
+        0.05151981841653797,
+        0.3255131731002564,
+        0.2088317980905781,
+        0.08008542881581805
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.214535926620219,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-039",
+      "group": "diversified",
+      "symbols": [
+        "HOLX",
+        "TTWO",
+        "VRTX",
+        "LULU",
+        "UAL",
+        "CHTR",
+        "ZBRA",
+        "FFIV"
+      ],
+      "weights": [
+        0.07195840600661811,
+        0.24568839202532836,
+        0.05246341318191791,
+        0.056737090862599204,
+        0.10605344621457315,
+        0.03552714728084082,
+        0.14017582146567395,
+        0.2820575402622922,
+        0.009338742700156067
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1833147460787649,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-040",
+      "group": "diversified",
+      "symbols": [
+        "ADBE",
+        "MELI",
+        "AMD",
+        "SNPS",
+        "VRTX",
+        "ULTA",
+        "INCY",
+        "ZBRA"
+      ],
+      "weights": [
+        0.13181073760088824,
+        0.13582910480609395,
+        0.21883289029530992,
+        0.07882725807847193,
+        0.08209399517068205,
+        0.08178334133850686,
+        0.17279150010532066,
+        0.03480120244540907,
+        0.06322997015931721
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13841918104070042,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-041",
+      "group": "diversified",
+      "symbols": [
+        "HOLX",
+        "ZBRA",
+        "CDNS",
+        "FFIV",
+        "UAL",
+        "IDXX",
+        "ADBE",
+        "WDAY",
+        "DLTR"
+      ],
+      "weights": [
+        0.06456159673657917,
+        0.17099430935007698,
+        0.05766946982107654,
+        0.12992396377710844,
+        0.040999698379861504,
+        0.14316718758854097,
+        0.119612380348898,
+        0.06463663778124898,
+        0.12197655880801456,
+        0.08645819740859459
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1166293938597204,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-042",
+      "group": "diversified",
+      "symbols": [
+        "DLTR",
+        "CDNS",
+        "MELI",
+        "UAL",
+        "FFIV",
+        "HSIC",
+        "CHTR",
+        "WDAY",
+        "TTWO"
+      ],
+      "weights": [
+        0.08998162112040191,
+        0.17870727393069066,
+        0.11958686005108027,
+        0.02456458127979783,
+        0.11372238799193335,
+        0.058863017415620805,
+        0.15643504196044838,
+        0.1427261231455083,
+        0.0569767435014755,
+        0.05843634960304283
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12283887883165845,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-043",
+      "group": "diversified",
+      "symbols": [
+        "HOLX",
+        "ADBE",
+        "TTWO",
+        "AKAM",
+        "MELI",
+        "MRNA"
+      ],
+      "weights": [
+        0.07085342998962639,
+        0.17244042017052819,
+        0.18186374990917983,
+        0.0676018219513662,
+        0.25862053971437776,
+        0.20074809307731023,
+        0.047871945187611446
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18187644048443422,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-044",
+      "group": "diversified",
+      "symbols": [
+        "CDNS",
+        "MRNA",
+        "DLTR",
+        "HOLX",
+        "ADBE",
+        "AMD",
+        "CHTR",
+        "VRTX",
+        "LULU",
+        "MELI"
+      ],
+      "weights": [
+        0.04398978296269159,
+        0.08930043694333685,
+        0.15353860557288873,
+        0.1973190006498279,
+        0.06035441626279384,
+        0.03257141354961971,
+        0.046972725017467624,
+        0.04211039987154078,
+        0.14797785393771662,
+        0.15831996450723423,
+        0.027545400724882152
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12882324119671854,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-045",
+      "group": "diversified",
+      "symbols": [
+        "INCY",
+        "CDNS",
+        "MRNA",
+        "AMD",
+        "ULTA",
+        "VRTX"
+      ],
+      "weights": [
+        0.1373176324590428,
+        0.3162380930615514,
+        0.11482351520874536,
+        0.1502749786429099,
+        0.12564831914941654,
+        0.10455745307254896,
+        0.051140008405785066
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18396473409621886,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-046",
+      "group": "diversified",
+      "symbols": [
+        "FFIV",
+        "ZBRA",
+        "DLTR",
+        "TTWO",
+        "ADBE"
+      ],
+      "weights": [
+        0.2149284958218369,
+        0.06846415920137593,
+        0.18505113493966313,
+        0.2885013941682061,
+        0.15774674971523747,
+        0.08530806615368043
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20052007958744722,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-047",
+      "group": "diversified",
+      "symbols": [
+        "UAL",
+        "INCY",
+        "TTWO",
+        "IDXX",
+        "ADBE",
+        "CDNS",
+        "VRTX"
+      ],
+      "weights": [
+        0.16368803728776,
+        0.21937608984790674,
+        0.12351803279962373,
+        0.10337365040872286,
+        0.13403107251225108,
+        0.1220815954867068,
+        0.1172368698957836,
+        0.01669465176124496
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.14775389778934406,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-048",
+      "group": "diversified",
+      "symbols": [
+        "AKAM",
+        "ADSK",
+        "WDAY",
+        "CHTR",
+        "ALGN",
+        "ADBE"
+      ],
+      "weights": [
+        0.09164200323828317,
+        0.059140511813474746,
+        0.1903580897460997,
+        0.15274197284730903,
+        0.30662874345792823,
+        0.15231464263821737,
+        0.047174036258687796
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1909084958696893,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "diversified-049",
+      "group": "diversified",
+      "symbols": [
+        "MRNA",
+        "UAL",
+        "DLTR",
+        "CHTR",
+        "FFIV",
+        "TTWO",
+        "AKAM"
+      ],
+      "weights": [
+        0.12206020540511095,
+        0.20751375751651494,
+        0.18410577124251826,
+        0.08787926891411978,
+        0.09848946109767308,
+        0.1344988378049903,
+        0.08684491768403854,
+        0.07860778033503418
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.14108968838679506,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-000",
+      "group": "concentrated",
+      "symbols": [
+        "AKAM",
+        "LULU",
+        "MELI",
+        "AMD",
+        "CHTR"
+      ],
+      "weights": [
+        0.10952937748450403,
+        0.22531003388717702,
+        0.20321085553558826,
+        0.4424024331008982,
+        0.000693792704942336,
+        0.018853507286890114
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.30013179660881856,
+      "attempts": 2,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-001",
+      "group": "concentrated",
+      "symbols": [
+        "FFIV",
+        "WDAY",
+        "UAL",
+        "ZBRA",
+        "LULU"
+      ],
+      "weights": [
+        0.5384444983571708,
+        0.0003130719364976657,
+        7.050729782306853e-05,
+        0.008202864113151269,
+        0.3899040102791615,
+        0.06306504801619574
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.44599220528913813,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-002",
+      "group": "concentrated",
+      "symbols": [
+        "LULU",
+        "HOLX",
+        "MELI",
+        "ALGN",
+        "ADBE",
+        "VRTX"
+      ],
+      "weights": [
+        0.01317288989715723,
+        0.3225879653650786,
+        0.002461246968261538,
+        0.19746598907726143,
+        0.01717098170742541,
+        0.3906605611723794,
+        0.056480365812436296
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2993359433961455,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-003",
+      "group": "concentrated",
+      "symbols": [
+        "VRTX",
+        "LULU",
+        "INCY",
+        "MRNA",
+        "WDAY",
+        "ULTA",
+        "FFIV",
+        "CDNS"
+      ],
+      "weights": [
+        0.004487390597812941,
+        0.08807755657428075,
+        0.24578349837969618,
+        0.21332801364642687,
+        0.3315752324685178,
+        0.043113151885516655,
+        0.0020082063349165687,
+        0.0005101556107255646,
+        0.0711167945021067
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.23055893239230602,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-004",
+      "group": "concentrated",
+      "symbols": [
+        "UAL",
+        "SNPS",
+        "VRTX",
+        "ALGN",
+        "HSIC",
+        "MELI"
+      ],
+      "weights": [
+        0.12000984565018893,
+        0.0004488479709660773,
+        0.46784499848123307,
+        9.142609454792997e-08,
+        0.2516821977354392,
+        0.1547231439379766,
+        0.005290874798101575
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.32059268040451827,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-005",
+      "group": "concentrated",
+      "symbols": [
+        "ADSK",
+        "CHTR",
+        "VRTX",
+        "ADBE",
+        "ZBRA"
+      ],
+      "weights": [
+        4.117836340406059e-05,
+        0.5125672145689385,
+        0.06410464698146312,
+        0.1650177063121616,
+        0.2245104324459724,
+        0.03375882132806018
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.34560999260230013,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-006",
+      "group": "concentrated",
+      "symbols": [
+        "FFIV",
+        "ZBRA",
+        "ALGN",
+        "HOLX",
+        "ADBE",
+        "MRNA",
+        "IDXX",
+        "CHTR"
+      ],
+      "weights": [
+        0.17386152474732305,
+        0.13341067111631258,
+        0.008209016707362533,
+        0.032735803200184904,
+        0.0007077903482129641,
+        0.5709137672003598,
+        0.022150915612280962,
+        0.005558295083684779,
+        0.05245221598427849
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3783810809360767,
+      "attempts": 2,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-007",
+      "group": "concentrated",
+      "symbols": [
+        "ADBE",
+        "IDXX",
+        "CHTR",
+        "LULU",
+        "ALGN",
+        "TTWO",
+        "DLTR",
+        "HSIC"
+      ],
+      "weights": [
+        0.07365305175838473,
+        0.004250141359618999,
+        0.31019787657498643,
+        0.016718138377728113,
+        0.308873353805236,
+        0.02665648681428224,
+        0.11217745911227207,
+        0.11914334871090232,
+        0.0283301434865891
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2256398884024258,
+      "attempts": 4,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-008",
+      "group": "concentrated",
+      "symbols": [
+        "AKAM",
+        "IDXX",
+        "LULU",
+        "MRNA",
+        "TTWO",
+        "AMD",
+        "VRTX",
+        "MELI"
+      ],
+      "weights": [
+        0.03975123002839871,
+        0.08118057844595651,
+        0.05326214259802744,
+        0.0024707582532076354,
+        0.023082397367549957,
+        0.058649198368150864,
+        0.5594749869695437,
+        0.18210434312255852,
+        2.436484660662819e-05
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.36116018604584477,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-009",
+      "group": "concentrated",
+      "symbols": [
+        "UAL",
+        "INCY",
+        "ADSK",
+        "HSIC",
+        "MELI",
+        "CDNS",
+        "ADBE",
+        "MRNA",
+        "AKAM"
+      ],
+      "weights": [
+        1.0647730236700745e-05,
+        0.014310514254523992,
+        0.31643301838377214,
+        0.32083344842054146,
+        0.1626018907128697,
+        0.0950008950748109,
+        0.0019852832988204562,
+        3.305360728349715e-05,
+        0.04385934236004633,
+        0.044931906157094886
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.24267975315438253,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-010",
+      "group": "concentrated",
+      "symbols": [
+        "DLTR",
+        "CDNS",
+        "LULU",
+        "IDXX",
+        "MELI",
+        "ADSK",
+        "AMD"
+      ],
+      "weights": [
+        0.11770415062415678,
+        0.00963718699145092,
+        0.03205343055365102,
+        0.007974736569150837,
+        0.056886379051737865,
+        0.3684935992655789,
+        0.3649695932398162,
+        0.04228092370445761
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.28905223460112556,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-011",
+      "group": "concentrated",
+      "symbols": [
+        "CDNS",
+        "LULU",
+        "SNPS",
+        "AKAM",
+        "ADBE"
+      ],
+      "weights": [
+        0.5467519222519762,
+        0.013398804284110274,
+        0.3159596253809496,
+        0.059043175273249905,
+        0.0049781573263125755,
+        0.059868315483401595
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.4060427711088783,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-012",
+      "group": "concentrated",
+      "symbols": [
+        "ADBE",
+        "IDXX",
+        "MELI",
+        "MRNA",
+        "VRTX",
+        "ALGN",
+        "UAL",
+        "INCY",
+        "LULU",
+        "TTWO"
+      ],
+      "weights": [
+        0.00016983078124415316,
+        0.10571285101248741,
+        0.10568372312075724,
+        0.1197928088087429,
+        0.14337514920810257,
+        0.005620601152262796,
+        6.814063040388168e-05,
+        0.17584017643469496,
+        0.19338909704882817,
+        0.10678927556248159,
+        0.04355834623999434
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13890302070580815,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-013",
+      "group": "concentrated",
+      "symbols": [
+        "INCY",
+        "WDAY",
+        "AMD",
+        "UAL",
+        "CHTR",
+        "SNPS",
+        "FFIV",
+        "TTWO"
+      ],
+      "weights": [
+        0.0013846649363951546,
+        0.5747902916685419,
+        0.08293391528789511,
+        0.04768570831168052,
+        0.040908870087071496,
+        0.14804405985196992,
+        0.006723403854126554,
+        0.0052448055487697666,
+        0.09228428045354954
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.37171743764827403,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-014",
+      "group": "concentrated",
+      "symbols": [
+        "AKAM",
+        "UAL",
+        "TTWO",
+        "INCY",
+        "WDAY",
+        "CDNS",
+        "CHTR",
+        "HOLX"
+      ],
+      "weights": [
+        0.2436455867994972,
+        0.004441888015864084,
+        0.06149427196799145,
+        0.3337868889573287,
+        0.0606447500424042,
+        0.22184942525533966,
+        0.02206197199022014,
+        0.00043169974492545944,
+        0.05164351722642929
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.23062705809881592,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-015",
+      "group": "concentrated",
+      "symbols": [
+        "AMD",
+        "ZBRA",
+        "ADBE",
+        "FFIV",
+        "SNPS",
+        "DLTR",
+        "UAL",
+        "AKAM"
+      ],
+      "weights": [
+        0.2390018045475055,
+        0.01479140955939817,
+        4.891620014707352e-05,
+        0.0072152053933511725,
+        0.06829967381493388,
+        0.0020061712245808996,
+        0.4750911030726882,
+        0.18201144624070587,
+        0.011534269946689114
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.32103434228624955,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-016",
+      "group": "concentrated",
+      "symbols": [
+        "ULTA",
+        "CHTR",
+        "ADSK",
+        "HOLX",
+        "AMD",
+        "WDAY"
+      ],
+      "weights": [
+        0.5178210285848109,
+        0.20889761264608303,
+        0.05392044615964224,
+        0.06407854967019976,
+        0.1337292498193378,
+        0.0002165479988817941,
+        0.02133656512104437
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3371291134171989,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-017",
+      "group": "concentrated",
+      "symbols": [
+        "UAL",
+        "ZBRA",
+        "ALGN",
+        "VRTX",
+        "LULU",
+        "DLTR",
+        "AKAM"
+      ],
+      "weights": [
+        0.044494885985080196,
+        0.018270220275027265,
+        0.13252665221948554,
+        0.18821401701836135,
+        0.015704118864384418,
+        0.2660734999870039,
+        0.26067896438903215,
+        0.07403764126162529
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.19977824712158007,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-018",
+      "group": "concentrated",
+      "symbols": [
+        "IDXX",
+        "SNPS",
+        "VRTX",
+        "FFIV",
+        "TTWO",
+        "DLTR",
+        "ADBE"
+      ],
+      "weights": [
+        0.005509716319113273,
+        0.010825785672946314,
+        0.13220444941711346,
+        0.0001975236500007217,
+        0.26789396145252536,
+        0.05089028577239477,
+        0.43947328432235344,
+        0.09300499339355271
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2937693022685622,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-019",
+      "group": "concentrated",
+      "symbols": [
+        "ZBRA",
+        "CDNS",
+        "SNPS",
+        "HOLX",
+        "LULU"
+      ],
+      "weights": [
+        0.14614608279249883,
+        0.24240361057338183,
+        0.015902855589204415,
+        0.18474714403759052,
+        0.3640325395956916,
+        0.04676776741163279
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2492095099336983,
+      "attempts": 3,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-020",
+      "group": "concentrated",
+      "symbols": [
+        "UAL",
+        "MELI",
+        "IDXX",
+        "ZBRA",
+        "DLTR",
+        "TTWO",
+        "WDAY",
+        "ULTA",
+        "SNPS"
+      ],
+      "weights": [
+        0.004016125657505474,
+        0.09474159580495718,
+        4.583649562290921e-06,
+        0.002297937356958251,
+        0.5277462408568074,
+        0.1707144343637111,
+        0.08582731855049197,
+        0.012791423616379858,
+        0.0035720780471655456,
+        0.09828826209646106
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3338601839519053,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-021",
+      "group": "concentrated",
+      "symbols": [
+        "IDXX",
+        "ULTA",
+        "ZBRA",
+        "SNPS",
+        "HOLX",
+        "HSIC",
+        "MRNA",
+        "ALGN"
+      ],
+      "weights": [
+        0.26810480200675896,
+        0.042509620110470166,
+        0.003432092786164753,
+        0.30826488937478896,
+        0.04887987615445397,
+        0.003676961352025197,
+        0.007665867101064237,
+        0.2902575328002343,
+        0.027208358314039584
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2561775319086581,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-022",
+      "group": "concentrated",
+      "symbols": [
+        "ADBE",
+        "VRTX",
+        "AKAM",
+        "HOLX",
+        "FFIV",
+        "AMD"
+      ],
+      "weights": [
+        0.005924917096839414,
+        0.17449865864066688,
+        0.23605831029981122,
+        0.026870429443249258,
+        0.5445617779574733,
+        0.007858531758542467,
+        0.0042273748034175945
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3835575895813961,
+      "attempts": 2,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-023",
+      "group": "concentrated",
+      "symbols": [
+        "ALGN",
+        "VRTX",
+        "CHTR",
+        "CDNS",
+        "FFIV",
+        "UAL"
+      ],
+      "weights": [
+        0.11970256023549569,
+        0.016961625891700093,
+        0.4609203122083261,
+        0.003234775428314702,
+        0.075160325936441,
+        0.310958795407505,
+        0.013061604892217438
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3295894502166339,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-024",
+      "group": "concentrated",
+      "symbols": [
+        "ULTA",
+        "HOLX",
+        "MELI",
+        "TTWO",
+        "AMD",
+        "ALGN"
+      ],
+      "weights": [
+        0.3336950617101046,
+        0.0005440593639741896,
+        0.27378890617974966,
+        0.026012842823470796,
+        0.00018990841309337456,
+        0.3227833930995802,
+        0.04298582841002716
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.29302665971934416,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-025",
+      "group": "concentrated",
+      "symbols": [
+        "FFIV",
+        "ALGN",
+        "DLTR",
+        "HSIC",
+        "MELI",
+        "HOLX"
+      ],
+      "weights": [
+        0.2600644421866339,
+        0.42359235182390237,
+        0.0070676564275515925,
+        0.2444343792219915,
+        0.0012826018996319752,
+        0.009714679273640208,
+        0.05384388916664862
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.30985729658818095,
+      "attempts": 2,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-026",
+      "group": "concentrated",
+      "symbols": [
+        "DLTR",
+        "UAL",
+        "ULTA",
+        "MRNA",
+        "HSIC",
+        "VRTX",
+        "SNPS",
+        "TTWO"
+      ],
+      "weights": [
+        0.00369460501656781,
+        0.019733879589422444,
+        0.4252635260874675,
+        0.2624188345355408,
+        0.007016785012122288,
+        0.030877882347309024,
+        0.10889853180677993,
+        0.09850398143701161,
+        0.043591974167778706
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.27458065113983626,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-027",
+      "group": "concentrated",
+      "symbols": [
+        "VRTX",
+        "LULU",
+        "SNPS",
+        "WDAY",
+        "MELI"
+      ],
+      "weights": [
+        0.26085411015126236,
+        0.02446696271191122,
+        0.001285008481251214,
+        0.12053533953787567,
+        0.5785022158096449,
+        0.014356363308054532
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.4180448372355626,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-028",
+      "group": "concentrated",
+      "symbols": [
+        "WDAY",
+        "ADSK",
+        "HSIC",
+        "AKAM",
+        "CHTR"
+      ],
+      "weights": [
+        0.49262743420082816,
+        2.983347436489317e-06,
+        0.26667915050161645,
+        0.15282133099294237,
+        0.002848489415311167,
+        0.08502061154186548
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3443905357338118,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-029",
+      "group": "concentrated",
+      "symbols": [
+        "FFIV",
+        "ZBRA",
+        "CHTR",
+        "ADBE",
+        "HSIC",
+        "AKAM",
+        "MELI",
+        "DLTR"
+      ],
+      "weights": [
+        0.25392607765051906,
+        0.14430782034781708,
+        0.01883352720123891,
+        0.3249196751467711,
+        0.000597850695177945,
+        0.21612778303221472,
+        0.002414998048045249,
+        0.01601784646328202,
+        0.022854421414933802
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2387270011918169,
+      "attempts": 2,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-030",
+      "group": "concentrated",
+      "symbols": [
+        "ZBRA",
+        "LULU",
+        "MELI",
+        "INCY",
+        "HOLX",
+        "DLTR",
+        "CDNS",
+        "AMD"
+      ],
+      "weights": [
+        7.599773112543903e-06,
+        0.05133710293827742,
+        0.22553729973810485,
+        0.00030691369695813137,
+        0.07173564396437263,
+        0.29572669208817615,
+        0.009443491454922109,
+        0.3320530288705895,
+        0.013852227475486667
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2566432227124475,
+      "attempts": 2,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-031",
+      "group": "concentrated",
+      "symbols": [
+        "WDAY",
+        "DLTR",
+        "ALGN",
+        "ZBRA",
+        "AMD",
+        "CDNS",
+        "ADBE",
+        "VRTX",
+        "SNPS",
+        "UAL"
+      ],
+      "weights": [
+        0.20498508637444252,
+        0.07831925494403966,
+        0.0490298580873458,
+        0.1008628218398734,
+        0.0037485828822691235,
+        0.14397027916119232,
+        0.0007563882477795581,
+        0.08743937002266579,
+        0.28937429212343396,
+        0.0046584671916089495,
+        0.03685559912534899
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1742352532984156,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-032",
+      "group": "concentrated",
+      "symbols": [
+        "MRNA",
+        "HOLX",
+        "CDNS",
+        "ADSK",
+        "UAL",
+        "VRTX"
+      ],
+      "weights": [
+        0.22826626235495667,
+        0.0014904757156864543,
+        0.05211150552162122,
+        0.3047348659888074,
+        0.29954937096281997,
+        0.11055765169109504,
+        0.003289867765013388
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2496502988258892,
+      "attempts": 3,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-033",
+      "group": "concentrated",
+      "symbols": [
+        "MRNA",
+        "FFIV",
+        "AMD",
+        "DLTR",
+        "CHTR",
+        "ULTA",
+        "ZBRA",
+        "ADSK"
+      ],
+      "weights": [
+        0.5730849671620519,
+        0.01925404993214335,
+        0.0014158030989975987,
+        0.0013773069181474808,
+        0.015891854177488025,
+        0.12772330399494525,
+        0.118802760366715,
+        0.10623377463072645,
+        0.036216179718785046
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3720781153277317,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-034",
+      "group": "concentrated",
+      "symbols": [
+        "AKAM",
+        "UAL",
+        "SNPS",
+        "CHTR",
+        "MRNA",
+        "ADBE",
+        "ZBRA"
+      ],
+      "weights": [
+        0.0008631853906319143,
+        0.2111322194360479,
+        0.011688852704289147,
+        0.4900562868999116,
+        0.05240129414510778,
+        0.00030620715610744627,
+        0.23288304321573658,
+        0.0006689110521676312
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.34185030143100403,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-035",
+      "group": "concentrated",
+      "symbols": [
+        "AKAM",
+        "SNPS",
+        "TTWO",
+        "DLTR",
+        "ULTA",
+        "ADBE",
+        "ALGN",
+        "ZBRA",
+        "UAL"
+      ],
+      "weights": [
+        0.4009255992798257,
+        0.2199955678510116,
+        0.005334290610054999,
+        1.0575679711492038e-05,
+        3.617112231272371e-05,
+        0.005029237661190225,
+        0.22404079458323814,
+        0.06454005269563673,
+        0.0016108114415796303,
+        0.07847689907543864
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2697140497813779,
+      "attempts": 2,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-036",
+      "group": "concentrated",
+      "symbols": [
+        "IDXX",
+        "INCY",
+        "ADSK",
+        "CDNS",
+        "MELI",
+        "MRNA",
+        "HSIC",
+        "ULTA",
+        "UAL",
+        "TTWO"
+      ],
+      "weights": [
+        0.0024648718084640817,
+        0.1201182579469572,
+        6.639955258297283e-05,
+        0.02604460763221134,
+        0.051979730024570105,
+        0.06632850884121211,
+        0.4375046701274183,
+        0.10408680664159391,
+        0.0655524956455931,
+        0.07606262054459675,
+        0.04979103123480016
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.23702035932043358,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-037",
+      "group": "concentrated",
+      "symbols": [
+        "MRNA",
+        "FFIV",
+        "LULU",
+        "WDAY",
+        "AKAM",
+        "ZBRA"
+      ],
+      "weights": [
+        0.34528216155308367,
+        0.012051036056937133,
+        0.046247081429242935,
+        0.07387395228300639,
+        0.0003983397074074738,
+        0.4487846851818759,
+        0.0733627437884466
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.33375109642793754,
+      "attempts": 3,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-038",
+      "group": "concentrated",
+      "symbols": [
+        "ZBRA",
+        "INCY",
+        "ADSK",
+        "VRTX",
+        "DLTR"
+      ],
+      "weights": [
+        0.0836514943123292,
+        0.09379365022473468,
+        0.208426244314117,
+        0.21198818134421055,
+        0.33163424730893404,
+        0.07050618249567464
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.21912770542995602,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-039",
+      "group": "concentrated",
+      "symbols": [
+        "LULU",
+        "INCY",
+        "ADBE",
+        "ULTA",
+        "ALGN",
+        "ADSK",
+        "HOLX",
+        "CDNS"
+      ],
+      "weights": [
+        0.0031926749293513133,
+        0.06668127795613506,
+        0.5610621028706824,
+        0.002371325517382856,
+        0.0013382453739011607,
+        0.2552557870195082,
+        0.004600905170646669,
+        0.09751729429586935,
+        0.007980386866522993
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3940046777627945,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-040",
+      "group": "concentrated",
+      "symbols": [
+        "CDNS",
+        "WDAY",
+        "ADSK",
+        "TTWO",
+        "VRTX"
+      ],
+      "weights": [
+        0.46833600811352283,
+        0.00971211034411461,
+        0.057208038143747475,
+        0.3842825587185079,
+        0.006800640583262518,
+        0.07366064409684485
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.37585092534765063,
+      "attempts": 5,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-041",
+      "group": "concentrated",
+      "symbols": [
+        "ULTA",
+        "ZBRA",
+        "AKAM",
+        "HOLX",
+        "TTWO",
+        "HSIC",
+        "LULU",
+        "MRNA",
+        "SNPS"
+      ],
+      "weights": [
+        0.043857944946433816,
+        0.4489109400706672,
+        0.16038344544950256,
+        0.08981342054780814,
+        0.04643912163665514,
+        3.80055382511733e-09,
+        8.263582020088189e-05,
+        0.003398920328109977,
+        0.20123234438343818,
+        0.005881223016630144
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.27993104825149123,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-042",
+      "group": "concentrated",
+      "symbols": [
+        "HSIC",
+        "TTWO",
+        "SNPS",
+        "ADBE",
+        "ALGN",
+        "UAL"
+      ],
+      "weights": [
+        0.0020659040336042695,
+        0.33282708937056715,
+        0.1518700082951685,
+        0.46215858071891164,
+        0.008525008095483386,
+        0.0040506622535423625,
+        0.038502747232722616
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3490047377022401,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-043",
+      "group": "concentrated",
+      "symbols": [
+        "ZBRA",
+        "MELI",
+        "AMD",
+        "MRNA",
+        "ALGN",
+        "HSIC",
+        "HOLX",
+        "IDXX",
+        "LULU",
+        "DLTR"
+      ],
+      "weights": [
+        4.830526653952084e-05,
+        0.0006962246229359071,
+        0.0643999754023256,
+        0.1808802745700818,
+        0.43450537553833357,
+        0.15548860702891037,
+        0.03546796248635548,
+        0.019756682820317305,
+        0.013063541315885616,
+        0.02849942736154278,
+        0.06719362358677201
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.25698330531135655,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-044",
+      "group": "concentrated",
+      "symbols": [
+        "IDXX",
+        "ADBE",
+        "INCY",
+        "MRNA",
+        "DLTR",
+        "MELI",
+        "TTWO",
+        "ADSK",
+        "SNPS",
+        "LULU"
+      ],
+      "weights": [
+        0.00014280494201330995,
+        0.2400531563036193,
+        0.00041485460223787045,
+        0.13778434713417798,
+        0.0008693896673971653,
+        0.009872076830814142,
+        0.1409381034622304,
+        0.024408671102733655,
+        0.39950932541651785,
+        0.0046088234323050144,
+        0.041398447105953265
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2585105564069688,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-045",
+      "group": "concentrated",
+      "symbols": [
+        "AMD",
+        "ADBE",
+        "IDXX",
+        "SNPS",
+        "ULTA",
+        "FFIV",
+        "ADSK"
+      ],
+      "weights": [
+        0.212814930614705,
+        0.054734394638605924,
+        0.00029724413614427804,
+        0.26431971342417715,
+        0.03287256434092473,
+        0.3219019930880218,
+        0.03711466229943664,
+        0.07594449745798446
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.22999761139984806,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-046",
+      "group": "concentrated",
+      "symbols": [
+        "HOLX",
+        "ADSK",
+        "HSIC",
+        "INCY",
+        "ADBE",
+        "UAL",
+        "ALGN",
+        "AKAM",
+        "VRTX",
+        "WDAY"
+      ],
+      "weights": [
+        0.20675965945462593,
+        0.020619489270655225,
+        0.01566981993242343,
+        0.05012356458716251,
+        0.011853521128179353,
+        0.025457931624028117,
+        0.3735907509341318,
+        0.27099841863115254,
+        0.0015485046661120887,
+        1.1902328641998998e-05,
+        0.023366437442886946
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2602798278361761,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-047",
+      "group": "concentrated",
+      "symbols": [
+        "HOLX",
+        "ULTA",
+        "CHTR",
+        "IDXX",
+        "AKAM",
+        "FFIV",
+        "SNPS",
+        "VRTX",
+        "WDAY",
+        "TTWO"
+      ],
+      "weights": [
+        0.05943303644468883,
+        0.12336454188807615,
+        0.17511246069309516,
+        0.04452584199503974,
+        0.006010171781276793,
+        0.24131010294422486,
+        1.9588792197371863e-08,
+        0.011228465001562379,
+        0.005460134881491416,
+        0.2463421673842076,
+        0.08721305739754494
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.17811118077083368,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-048",
+      "group": "concentrated",
+      "symbols": [
+        "DLTR",
+        "WDAY",
+        "ULTA",
+        "ZBRA",
+        "INCY",
+        "ADSK"
+      ],
+      "weights": [
+        0.595222993028373,
+        0.04396183285199563,
+        0.012070084239769654,
+        3.2087533126235615e-05,
+        0.20803827103247174,
+        0.12013271955589488,
+        0.020542011758368808
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.4145025089096827,
+      "attempts": 2,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "concentrated-049",
+      "group": "concentrated",
+      "symbols": [
+        "ZBRA",
+        "WDAY",
+        "LULU",
+        "ULTA",
+        "TTWO",
+        "DLTR",
+        "FFIV"
+      ],
+      "weights": [
+        0.025654809122899313,
+        0.09039568433259346,
+        0.006385077397476514,
+        0.13915030263321396,
+        0.5095039281184164,
+        0.0022572726559434543,
+        0.15734343158058953,
+        0.06930949415886735
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3173932344034304,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "training_correlated-000",
+      "group": "training_correlated",
+      "symbols": [
+        "CHTR",
+        "IDXX",
+        "MELI",
+        "ADBE",
+        "CDNS"
+      ],
+      "weights": [
+        0.046785529527754256,
+        0.273977800200087,
+        0.1586504548766054,
+        0.16652347516347665,
+        0.25965298166741935,
+        0.09440975856465739
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2064856287897641,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-001",
+      "group": "training_correlated",
+      "symbols": [
+        "INCY",
+        "VRTX",
+        "ADBE",
+        "CDNS",
+        "SNPS",
+        "IDXX"
+      ],
+      "weights": [
+        0.14878710160137998,
+        0.1679005116935911,
+        0.1001702449891054,
+        0.0648731058308654,
+        0.31735725928000336,
+        0.14767392104806681,
+        0.05323785555698812
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18992826751096184,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-002",
+      "group": "training_correlated",
+      "symbols": [
+        "AKAM",
+        "SNPS",
+        "IDXX",
+        "ADBE",
+        "CDNS",
+        "ADSK",
+        "WDAY",
+        "MELI",
+        "FFIV"
+      ],
+      "weights": [
+        0.04911587388003762,
+        0.06368106673280509,
+        0.2986582336618618,
+        0.035018899548322616,
+        0.20309082799299763,
+        0.06842948726090617,
+        0.05632033357862878,
+        0.10073422890378313,
+        0.12061178595218369,
+        0.004339262488473572
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1707045872852654,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-003",
+      "group": "training_correlated",
+      "symbols": [
+        "MELI",
+        "CDNS",
+        "SNPS",
+        "ADSK",
+        "ADBE",
+        "WDAY",
+        "IDXX",
+        "ZBRA"
+      ],
+      "weights": [
+        0.09099009658377633,
+        0.23854576348505285,
+        0.07758453202309828,
+        0.1384612947323895,
+        0.13180954675789092,
+        0.06968441125588916,
+        0.08268844574638898,
+        0.14841662881448725,
+        0.021819280601026815
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.14194479826436215,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-004",
+      "group": "training_correlated",
+      "symbols": [
+        "VRTX",
+        "INCY",
+        "CDNS",
+        "SNPS",
+        "ADBE"
+      ],
+      "weights": [
+        0.2565058956166263,
+        0.10048544331154001,
+        0.08769203666054348,
+        0.0933332757869375,
+        0.45822243710540606,
+        0.0037609115189467524
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3022755387886701,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-005",
+      "group": "training_correlated",
+      "symbols": [
+        "ALGN",
+        "IDXX",
+        "ADSK",
+        "MELI",
+        "SNPS"
+      ],
+      "weights": [
+        0.1583530510463203,
+        0.48143399173538914,
+        0.12982345800381542,
+        0.12480402277511415,
+        0.0919907134011787,
+        0.013594763038182224
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.297931660456991,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-006",
+      "group": "training_correlated",
+      "symbols": [
+        "WDAY",
+        "ADBE",
+        "SNPS",
+        "CDNS",
+        "MELI",
+        "ADSK",
+        "LULU",
+        "ZBRA",
+        "IDXX"
+      ],
+      "weights": [
+        0.161780433976142,
+        0.009107456481341326,
+        0.027255578226035106,
+        0.14235758444130941,
+        0.09463361084579072,
+        0.22451562279486334,
+        0.13607107991706094,
+        0.0778655475907288,
+        0.08270424484479469,
+        0.0437088408819336
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13995602533213553,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-007",
+      "group": "training_correlated",
+      "symbols": [
+        "UAL",
+        "ULTA",
+        "HSIC",
+        "ZBRA",
+        "MELI",
+        "ADSK"
+      ],
+      "weights": [
+        0.1795255290528354,
+        0.3189650925666343,
+        0.08261653347554088,
+        0.03170628397767529,
+        0.1677570808025206,
+        0.16730572223500106,
+        0.052123757889792316
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20064945489344263,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-008",
+      "group": "training_correlated",
+      "symbols": [
+        "ULTA",
+        "UAL",
+        "ZBRA",
+        "ADSK",
+        "FFIV"
+      ],
+      "weights": [
+        0.3278760373053069,
+        0.16765926133972775,
+        0.05808042720189608,
+        0.10752829714965596,
+        0.3067444891653158,
+        0.03211148783809755
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.24567132374834044,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-009",
+      "group": "training_correlated",
+      "symbols": [
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "ADSK",
+        "IDXX",
+        "MELI",
+        "ZBRA",
+        "AMD",
+        "WDAY"
+      ],
+      "weights": [
+        0.11432471924029398,
+        0.10188428214958921,
+        0.05514004098568918,
+        0.06777702264671433,
+        0.11808110787900145,
+        0.2048571305579304,
+        0.08541361147427037,
+        0.1513592571921371,
+        0.07267677275674368,
+        0.028486055117630263
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12329276767296031,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-010",
+      "group": "training_correlated",
+      "symbols": [
+        "MELI",
+        "CDNS",
+        "SNPS",
+        "ADSK",
+        "ADBE",
+        "WDAY",
+        "IDXX",
+        "ZBRA",
+        "AMD",
+        "LULU"
+      ],
+      "weights": [
+        0.06861544032708757,
+        0.0640154172758008,
+        0.019874093388812235,
+        0.23632282723913695,
+        0.08027940591273908,
+        0.04608219563047018,
+        0.07553649342710048,
+        0.09280537271229959,
+        0.1145386695852104,
+        0.1262013198109098,
+        0.07572876469043299
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12271718712786418,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-011",
+      "group": "training_correlated",
+      "symbols": [
+        "HSIC",
+        "ULTA",
+        "UAL",
+        "FFIV",
+        "ALGN"
+      ],
+      "weights": [
+        0.3315900652697069,
+        0.07087739000293483,
+        0.15344815420765923,
+        0.1446040015848517,
+        0.28372581857969487,
+        0.015754570355152497
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.24018077571907934,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-012",
+      "group": "training_correlated",
+      "symbols": [
+        "AKAM",
+        "SNPS",
+        "IDXX",
+        "ADBE",
+        "CDNS",
+        "ADSK",
+        "WDAY",
+        "MELI",
+        "FFIV"
+      ],
+      "weights": [
+        0.15642926460993203,
+        0.06500366281457527,
+        0.11719303880847753,
+        0.051845069491238564,
+        0.08702162301129292,
+        0.12673525171168726,
+        0.0993414132631815,
+        0.09617016207562669,
+        0.15524856606806445,
+        0.04501194814592383
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11399790668423615,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-013",
+      "group": "training_correlated",
+      "symbols": [
+        "DLTR",
+        "ULTA",
+        "LULU",
+        "ZBRA",
+        "FFIV"
+      ],
+      "weights": [
+        0.23321677132503923,
+        0.1396941944075689,
+        0.16979608719646067,
+        0.30637530838939153,
+        0.11809513624790198,
+        0.03282250243363773
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2116248490677948,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-014",
+      "group": "training_correlated",
+      "symbols": [
+        "INCY",
+        "VRTX",
+        "ADBE",
+        "CDNS",
+        "SNPS",
+        "IDXX",
+        "AMD",
+        "WDAY",
+        "MELI"
+      ],
+      "weights": [
+        0.08888133975642908,
+        0.1345165720577327,
+        0.04107987593890508,
+        0.09359355516834482,
+        0.10764212251438368,
+        0.24244653225070886,
+        0.051803561243174846,
+        0.11106811020102042,
+        0.06959524690994373,
+        0.059373083959356726
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13019745358346463,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-015",
+      "group": "training_correlated",
+      "symbols": [
+        "AMD",
+        "SNPS",
+        "CDNS",
+        "ADBE",
+        "ZBRA",
+        "ADSK",
+        "MELI",
+        "WDAY"
+      ],
+      "weights": [
+        0.1080027276008608,
+        0.18896611175320013,
+        0.0878517594804632,
+        0.26851648243651205,
+        0.028031634513810952,
+        0.028146393843648317,
+        0.16062978960117047,
+        0.07644002451655903,
+        0.053415076253774965
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.16326798259076214,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-016",
+      "group": "training_correlated",
+      "symbols": [
+        "CHTR",
+        "IDXX",
+        "MELI",
+        "ADBE",
+        "CDNS",
+        "ADSK",
+        "SNPS",
+        "ZBRA"
+      ],
+      "weights": [
+        0.1199353481980217,
+        0.10845640529834671,
+        0.3063711376559536,
+        0.131981824461821,
+        0.024564668983548654,
+        0.059413962840192285,
+        0.18847456659275616,
+        0.04926919216529698,
+        0.011532893804062761
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.17964632070558523,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-017",
+      "group": "training_correlated",
+      "symbols": [
+        "ALGN",
+        "IDXX",
+        "ADSK",
+        "MELI",
+        "SNPS",
+        "ZBRA"
+      ],
+      "weights": [
+        0.21678014793835626,
+        0.15044834893135858,
+        0.073884521637612,
+        0.09719041908720524,
+        0.29642315770214755,
+        0.12399114863915764,
+        0.04128225606416282
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18947795636502981,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-018",
+      "group": "training_correlated",
+      "symbols": [
+        "ADBE",
+        "SNPS",
+        "CDNS",
+        "ADSK",
+        "WDAY",
+        "IDXX",
+        "MELI",
+        "AMD",
+        "ZBRA",
+        "LULU"
+      ],
+      "weights": [
+        0.052670321491284006,
+        0.03843000100487422,
+        0.15452780641325387,
+        0.0780107602446564,
+        0.10438793526581495,
+        0.1545177311272829,
+        0.047766398383231934,
+        0.14018272186316857,
+        0.04035857751871511,
+        0.12462864549121559,
+        0.06451910119650243
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11224477247284029,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-019",
+      "group": "training_correlated",
+      "symbols": [
+        "DLTR",
+        "ULTA",
+        "LULU",
+        "ZBRA",
+        "FFIV",
+        "UAL"
+      ],
+      "weights": [
+        0.12181024724966777,
+        0.2034033603848371,
+        0.16340509162231157,
+        0.09816928611893858,
+        0.2040386203083012,
+        0.13362575149283767,
+        0.075547642823106
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1577441424315355,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-020",
+      "group": "training_correlated",
+      "symbols": [
+        "FFIV",
+        "ZBRA",
+        "ADSK",
+        "CDNS",
+        "SNPS",
+        "ADBE"
+      ],
+      "weights": [
+        0.1988653481535475,
+        0.2438695797176695,
+        0.13565863588461244,
+        0.1634798778199913,
+        0.10768025963473764,
+        0.1226965469471823,
+        0.02774975184225933
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.17156826422509117,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-021",
+      "group": "training_correlated",
+      "symbols": [
+        "AMD",
+        "SNPS",
+        "CDNS",
+        "ADBE",
+        "ZBRA",
+        "ADSK",
+        "MELI"
+      ],
+      "weights": [
+        0.19838903669776586,
+        0.09581588152968581,
+        0.18638914518503646,
+        0.2060934491741132,
+        0.12274728140187734,
+        0.09639755835292214,
+        0.059278533967937835,
+        0.03488911369066129
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.15484489546193422,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-022",
+      "group": "training_correlated",
+      "symbols": [
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "ADSK",
+        "IDXX",
+        "MELI",
+        "ZBRA",
+        "AMD",
+        "WDAY",
+        "LULU"
+      ],
+      "weights": [
+        0.0922122356849703,
+        0.06299865114180642,
+        0.0781020013009459,
+        0.11116407699903906,
+        0.22244292916702216,
+        0.06400372615476803,
+        0.043486639414212186,
+        0.07744890885211214,
+        0.10070064022218132,
+        0.06767934210450625,
+        0.07976084895843603
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11347896138141908,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-023",
+      "group": "training_correlated",
+      "symbols": [
+        "TTWO",
+        "CDNS",
+        "AMD",
+        "SNPS",
+        "ADBE",
+        "ADSK"
+      ],
+      "weights": [
+        0.024379749392362687,
+        0.2303569826036275,
+        0.23413035122710973,
+        0.11478307809838342,
+        0.2513650997810887,
+        0.13016202363243493,
+        0.014822715264993114
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20199716667002598,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-024",
+      "group": "training_correlated",
+      "symbols": [
+        "HSIC",
+        "ULTA",
+        "UAL",
+        "FFIV",
+        "ALGN",
+        "ADSK"
+      ],
+      "weights": [
+        0.07681966183779516,
+        0.16936047277925426,
+        0.0614275572852169,
+        0.1291366327593768,
+        0.21412853683867883,
+        0.2787177333691105,
+        0.07040940513056734
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18352593441327286,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-025",
+      "group": "training_correlated",
+      "symbols": [
+        "INCY",
+        "VRTX",
+        "ADBE",
+        "CDNS",
+        "SNPS",
+        "IDXX"
+      ],
+      "weights": [
+        0.2663176327382108,
+        0.1735456653185346,
+        0.20081073872600377,
+        0.13734493188978136,
+        0.07711925031285025,
+        0.06600342990457068,
+        0.07885835111004834
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.17675423362940865,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-026",
+      "group": "training_correlated",
+      "symbols": [
+        "CHTR",
+        "IDXX",
+        "MELI",
+        "ADBE",
+        "CDNS"
+      ],
+      "weights": [
+        0.13207722047506038,
+        0.17586245507383255,
+        0.41897422336998924,
+        0.15749349150395048,
+        0.08844938407265077,
+        0.027143225504516602
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.25727564322122437,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-027",
+      "group": "training_correlated",
+      "symbols": [
+        "IDXX",
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "MELI",
+        "ADSK",
+        "LULU"
+      ],
+      "weights": [
+        0.14570141772240142,
+        0.20022864804359483,
+        0.041632487806402815,
+        0.0474853665372182,
+        0.2103750016808452,
+        0.18254285007810409,
+        0.1543079635570852,
+        0.017726264574348394
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.16701324021955505,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-028",
+      "group": "training_correlated",
+      "symbols": [
+        "HOLX",
+        "IDXX",
+        "CDNS",
+        "SNPS",
+        "ADBE"
+      ],
+      "weights": [
+        0.0968142910217734,
+        0.22212377403475797,
+        0.2816165828262186,
+        0.23729116586496588,
+        0.11603605330041501,
+        0.04611813295186912
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20991822291026707,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-029",
+      "group": "training_correlated",
+      "symbols": [
+        "AMD",
+        "SNPS",
+        "CDNS",
+        "ADBE",
+        "ZBRA",
+        "ADSK",
+        "MELI",
+        "WDAY",
+        "LULU"
+      ],
+      "weights": [
+        0.028340057109741575,
+        0.1429776138117735,
+        0.20402601680509458,
+        0.08704786028935588,
+        0.13044011210939235,
+        0.07793544561453367,
+        0.04984341564627792,
+        0.057130198848144575,
+        0.18936065750361578,
+        0.03289862226207009
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13622626259350704,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-030",
+      "group": "training_correlated",
+      "symbols": [
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "ADSK",
+        "IDXX"
+      ],
+      "weights": [
+        0.26613058449560106,
+        0.15052934688828765,
+        0.22385592336156337,
+        0.16934674822753357,
+        0.11752923754355209,
+        0.07260815948346216
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.19135943433902705,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-031",
+      "group": "training_correlated",
+      "symbols": [
+        "CHTR",
+        "IDXX",
+        "MELI",
+        "ADBE",
+        "CDNS",
+        "ADSK",
+        "SNPS",
+        "ZBRA"
+      ],
+      "weights": [
+        0.13401935622634215,
+        0.06804687943609253,
+        0.12991942958451844,
+        0.2014609991494721,
+        0.04363965754432902,
+        0.1155686958850049,
+        0.021808989697389154,
+        0.2700563680875916,
+        0.015479624389260073
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.16896339393284476,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-032",
+      "group": "training_correlated",
+      "symbols": [
+        "MELI",
+        "CDNS",
+        "SNPS",
+        "ADSK",
+        "ADBE",
+        "WDAY"
+      ],
+      "weights": [
+        0.2265946302207027,
+        0.22508451768814564,
+        0.22378199170995275,
+        0.12663418751171743,
+        0.07242764240292889,
+        0.10493907408173994,
+        0.02053795638481263
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18480254411383223,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-033",
+      "group": "training_correlated",
+      "symbols": [
+        "LULU",
+        "ADBE",
+        "MELI",
+        "CDNS",
+        "SNPS"
+      ],
+      "weights": [
+        0.29695860195542556,
+        0.2291165260094831,
+        0.21093979022556011,
+        0.1123357493157996,
+        0.10570713415542321,
+        0.044942198338308405
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.21098750884355297,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-034",
+      "group": "training_correlated",
+      "symbols": [
+        "IDXX",
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "MELI",
+        "ADSK",
+        "LULU",
+        "ZBRA",
+        "WDAY"
+      ],
+      "weights": [
+        0.17849012697203737,
+        0.25262322133298554,
+        0.13528462027837052,
+        0.05431403591427921,
+        0.09872762530152719,
+        0.04212703037747557,
+        0.060719320383984025,
+        0.04501426586288442,
+        0.0829545959007135,
+        0.04974515767574272
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.14352015674271512,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-035",
+      "group": "training_correlated",
+      "symbols": [
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "ADSK",
+        "IDXX"
+      ],
+      "weights": [
+        0.0432547648291278,
+        0.15926452878585284,
+        0.14251832596242717,
+        0.29219497828547664,
+        0.31763549290804766,
+        0.045131909229067846
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2358547389657849,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-036",
+      "group": "training_correlated",
+      "symbols": [
+        "IDXX",
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "MELI",
+        "ADSK",
+        "LULU"
+      ],
+      "weights": [
+        0.04303845781631557,
+        0.1298621080166797,
+        0.09294092690295744,
+        0.039901764998216446,
+        0.22347028949818534,
+        0.29684919034094875,
+        0.09702650696685657,
+        0.07691075545984019
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18233446214736873,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-037",
+      "group": "training_correlated",
+      "symbols": [
+        "LULU",
+        "ADBE",
+        "MELI",
+        "CDNS",
+        "SNPS",
+        "IDXX",
+        "WDAY",
+        "ADSK",
+        "AMD",
+        "ZBRA"
+      ],
+      "weights": [
+        0.13960926648030625,
+        0.1318781769573641,
+        0.036140096050320675,
+        0.08861382856987003,
+        0.02111751324640789,
+        0.12778899577333905,
+        0.09143962156046186,
+        0.1032008676995233,
+        0.11041698627891759,
+        0.05903959452571126,
+        0.09075505285777798
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10574278249252654,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-038",
+      "group": "training_correlated",
+      "symbols": [
+        "AKAM",
+        "SNPS",
+        "IDXX",
+        "ADBE",
+        "CDNS",
+        "ADSK",
+        "WDAY",
+        "MELI",
+        "FFIV",
+        "LULU"
+      ],
+      "weights": [
+        0.05393817243683617,
+        0.03480247314888496,
+        0.051754673390184046,
+        0.09238274346484249,
+        0.15692415318879868,
+        0.16441222754335508,
+        0.10749426153207646,
+        0.10852797989032693,
+        0.03240058432476673,
+        0.16878861097949496,
+        0.028574120100433354
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12067943859259904,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-039",
+      "group": "training_correlated",
+      "symbols": [
+        "ULTA",
+        "UAL",
+        "ZBRA",
+        "ADSK",
+        "FFIV",
+        "LULU",
+        "HSIC",
+        "DLTR",
+        "SNPS"
+      ],
+      "weights": [
+        0.1418077124578981,
+        0.11059654208700792,
+        0.0861667793240805,
+        0.016544399550992128,
+        0.22308974314444052,
+        0.08180624144575258,
+        0.08354763965772977,
+        0.05539272982962303,
+        0.16197813231404107,
+        0.039070080188434254
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13431269720969724,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-040",
+      "group": "training_correlated",
+      "symbols": [
+        "HOLX",
+        "IDXX",
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "MELI"
+      ],
+      "weights": [
+        0.05733270198814038,
+        0.19282171401105377,
+        0.12132315091601877,
+        0.28809345454476104,
+        0.09232509691716584,
+        0.15845187019058737,
+        0.0896520114322728
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.17985279945265809,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-041",
+      "group": "training_correlated",
+      "symbols": [
+        "HSIC",
+        "ULTA",
+        "UAL",
+        "FFIV",
+        "ALGN",
+        "ADSK",
+        "ZBRA",
+        "DLTR",
+        "SNPS"
+      ],
+      "weights": [
+        0.06539083528579026,
+        0.12411412802575279,
+        0.11219574337006462,
+        0.03363069619786109,
+        0.11128231894411789,
+        0.1806644088513271,
+        0.2536761192797041,
+        0.043688684336878524,
+        0.019558992159083487,
+        0.05579807354942008
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.14817882362526405,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-042",
+      "group": "training_correlated",
+      "symbols": [
+        "HSIC",
+        "ULTA",
+        "UAL",
+        "FFIV",
+        "ALGN",
+        "ADSK",
+        "ZBRA",
+        "DLTR",
+        "SNPS",
+        "VRTX"
+      ],
+      "weights": [
+        0.13585184934562475,
+        0.12779621629906798,
+        0.13753281880199444,
+        0.07464945273634717,
+        0.007632375261262916,
+        0.10278716239346317,
+        0.026620721823831718,
+        0.19043393212605622,
+        0.09562611806480843,
+        0.023157362483851054,
+        0.07791199066369214
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12262351033541738,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-043",
+      "group": "training_correlated",
+      "symbols": [
+        "HOLX",
+        "IDXX",
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "MELI",
+        "ADSK",
+        "ALGN",
+        "AMD",
+        "LULU"
+      ],
+      "weights": [
+        0.025730782313596486,
+        0.026978618653434604,
+        0.15450110224891844,
+        0.1486335709453061,
+        0.13811430141173156,
+        0.0662955913915091,
+        0.07146803366313088,
+        0.1290850932983894,
+        0.029835351008960467,
+        0.14181994076503995,
+        0.0675376142999831
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1181581279846907,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-044",
+      "group": "training_correlated",
+      "symbols": [
+        "HSIC",
+        "ULTA",
+        "UAL",
+        "FFIV",
+        "ALGN",
+        "ADSK",
+        "ZBRA",
+        "DLTR",
+        "SNPS",
+        "VRTX"
+      ],
+      "weights": [
+        0.04633627677621661,
+        0.06932389422913161,
+        0.08044664039348688,
+        0.055629363220289156,
+        0.14504598944912903,
+        0.06587502067579262,
+        0.06984819676934295,
+        0.14069932428621199,
+        0.05925481494805393,
+        0.22932586334475605,
+        0.038214615907589095
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12413391027261668,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-045",
+      "group": "training_correlated",
+      "symbols": [
+        "WDAY",
+        "ADBE",
+        "SNPS",
+        "CDNS",
+        "MELI",
+        "ADSK"
+      ],
+      "weights": [
+        0.1598939009154876,
+        0.22304119252774837,
+        0.15888628110676478,
+        0.06629013988886187,
+        0.27384097977912,
+        0.027837330054713068,
+        0.09021017572730426
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18885434104030918,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-046",
+      "group": "training_correlated",
+      "symbols": [
+        "UAL",
+        "ULTA",
+        "HSIC",
+        "ZBRA",
+        "MELI",
+        "ADSK",
+        "ALGN"
+      ],
+      "weights": [
+        0.1668197561137688,
+        0.14911730619084154,
+        0.19978695253965945,
+        0.17870954768238506,
+        0.10167947786509453,
+        0.0410678666884194,
+        0.07622015872943234,
+        0.08659893419039899
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.14725090476630626,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-047",
+      "group": "training_correlated",
+      "symbols": [
+        "IDXX",
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "MELI",
+        "ADSK"
+      ],
+      "weights": [
+        0.0818703092057013,
+        0.20116717752479849,
+        0.2224973050083106,
+        0.18644467648392063,
+        0.0813000811547253,
+        0.15187001795339802,
+        0.07485043266914553
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1667144417875746,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-048",
+      "group": "training_correlated",
+      "symbols": [
+        "VRTX",
+        "INCY",
+        "CDNS",
+        "SNPS",
+        "ADBE",
+        "IDXX",
+        "AKAM",
+        "ADSK",
+        "HOLX"
+      ],
+      "weights": [
+        0.1207637955621282,
+        0.22530686431718844,
+        0.058752152930221214,
+        0.09808166186410124,
+        0.02939720755700743,
+        0.09663755202208738,
+        0.13172388713393576,
+        0.10243484385202517,
+        0.0893586522490841,
+        0.04754338251222112
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1267113391970856,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "training_correlated-049",
+      "group": "training_correlated",
+      "symbols": [
+        "AMD",
+        "SNPS",
+        "CDNS",
+        "ADBE",
+        "ZBRA"
+      ],
+      "weights": [
+        0.18144938977566288,
+        0.35632550386805095,
+        0.10600107577421092,
+        0.1027417779209969,
+        0.17386761317760524,
+        0.07961463948347301
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.21825228448459902,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Alpaca pretest 504-return correlation only"
+    },
+    {
+      "portfolio_id": "cash_boundary-000",
+      "group": "cash_boundary",
+      "symbols": [
+        "UAL",
+        "INCY",
+        "LULU",
+        "ZBRA",
+        "MRNA",
+        "FFIV",
+        "WDAY",
+        "HOLX"
+      ],
+      "weights": [
+        0.6,
+        0.05919988797761565,
+        0.0605730912975581,
+        0.03277997320836825,
+        0.011678300723908937,
+        0.04971425264936396,
+        0.05163317164727319,
+        0.034421322495911955,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38470695425045304,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-001",
+      "group": "cash_boundary",
+      "symbols": [
+        "UAL",
+        "ADSK",
+        "LULU",
+        "TTWO",
+        "CHTR",
+        "FFIV"
+      ],
+      "weights": [
+        0.6,
+        0.05420154153858418,
+        0.023461053432559244,
+        0.06127934915258946,
+        0.10906753539577577,
+        0.051990520480491374,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3918421282630304,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-002",
+      "group": "cash_boundary",
+      "symbols": [
+        "ULTA",
+        "LULU",
+        "IDXX",
+        "UAL",
+        "HSIC",
+        "HOLX"
+      ],
+      "weights": [
+        0.6,
+        0.03583233551014951,
+        0.045388574313223316,
+        0.058688000537274236,
+        0.10702661190937378,
+        0.053064477729979194,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3910588948069172,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-003",
+      "group": "cash_boundary",
+      "symbols": [
+        "AKAM",
+        "AMD",
+        "INCY",
+        "UAL",
+        "WDAY",
+        "TTWO",
+        "CDNS",
+        "FFIV",
+        "CHTR"
+      ],
+      "weights": [
+        0.6,
+        0.03561093690183159,
+        0.02127981477107677,
+        0.03248988788487411,
+        0.05832043664480929,
+        0.02306611712710961,
+        0.02858349586526332,
+        0.07121630357412707,
+        0.02943300723090821,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38346496129354846,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-004",
+      "group": "cash_boundary",
+      "symbols": [
+        "VRTX",
+        "AMD",
+        "FFIV",
+        "AKAM",
+        "IDXX",
+        "ULTA",
+        "CHTR",
+        "WDAY"
+      ],
+      "weights": [
+        0.6,
+        0.06555255486128447,
+        0.01753677472614833,
+        0.03208268668748215,
+        0.0744469917297606,
+        0.011819107095547897,
+        0.04824795260696,
+        0.050313932292816575,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38617537728540124,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-005",
+      "group": "cash_boundary",
+      "symbols": [
+        "WDAY",
+        "VRTX",
+        "FFIV",
+        "SNPS",
+        "CDNS",
+        "AKAM",
+        "ULTA",
+        "HSIC",
+        "HOLX"
+      ],
+      "weights": [
+        0.6,
+        0.055801386012512444,
+        0.024311245546163346,
+        0.05755350818695474,
+        0.037541460952108065,
+        0.09553604827724387,
+        0.08901814166777915,
+        0.030644977611504906,
+        0.009593231745733476,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38650910975052144,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-006",
+      "group": "cash_boundary",
+      "symbols": [
+        "HOLX",
+        "SNPS",
+        "WDAY",
+        "MELI",
+        "DLTR",
+        "ADSK",
+        "CHTR",
+        "ULTA",
+        "MRNA"
+      ],
+      "weights": [
+        0.6,
+        0.02755106476345954,
+        0.08143605855336818,
+        0.05891720332505554,
+        0.02482534837207991,
+        0.016810452796368086,
+        0.02307076700394498,
+        0.017703064707167915,
+        0.049686040478555904,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38507538030358107,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-007",
+      "group": "cash_boundary",
+      "symbols": [
+        "INCY",
+        "CHTR",
+        "IDXX",
+        "AKAM",
+        "HSIC",
+        "DLTR",
+        "WDAY"
+      ],
+      "weights": [
+        0.6,
+        0.032568100455197965,
+        0.13167362683158154,
+        0.10274576681884073,
+        0.04144502811808691,
+        0.05240396152040094,
+        0.039163516255891866,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.39495296431370025,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-008",
+      "group": "cash_boundary",
+      "symbols": [
+        "UAL",
+        "HSIC",
+        "VRTX",
+        "ULTA",
+        "SNPS",
+        "AKAM",
+        "ADSK",
+        "INCY",
+        "ALGN"
+      ],
+      "weights": [
+        0.6,
+        0.014993021774059057,
+        0.044957333433698975,
+        0.015048630687987783,
+        0.08530501996977262,
+        0.03660983978316723,
+        0.0519336160310895,
+        0.030297608863686504,
+        0.02085492945653835,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38513961427752086,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-009",
+      "group": "cash_boundary",
+      "symbols": [
+        "TTWO",
+        "IDXX",
+        "ADSK",
+        "VRTX",
+        "AKAM",
+        "AMD",
+        "INCY",
+        "CHTR",
+        "ZBRA"
+      ],
+      "weights": [
+        0.6,
+        0.018083076775209296,
+        0.07319529407205244,
+        0.025395722676349874,
+        0.030202785706507994,
+        0.06696735261240278,
+        0.02024877548188447,
+        0.01765102679948513,
+        0.04825596587610804,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3847765359487816,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-010",
+      "group": "cash_boundary",
+      "symbols": [
+        "DLTR",
+        "UAL",
+        "MRNA",
+        "INCY",
+        "ADSK",
+        "IDXX"
+      ],
+      "weights": [
+        0.6,
+        0.07530725748602118,
+        0.08449829076852085,
+        0.07069722486010271,
+        0.022649111362513123,
+        0.0468481155228422,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3905169699493404,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-011",
+      "group": "cash_boundary",
+      "symbols": [
+        "HSIC",
+        "ULTA",
+        "DLTR",
+        "AMD",
+        "INCY",
+        "CDNS",
+        "ADSK",
+        "ZBRA"
+      ],
+      "weights": [
+        0.6,
+        0.04342388788276442,
+        0.04656042808607654,
+        0.08505137547256873,
+        0.04349628882504092,
+        0.09413147218710964,
+        0.018105188993882075,
+        0.06923135855255773,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3871606840453904,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-012",
+      "group": "cash_boundary",
+      "symbols": [
+        "UAL",
+        "MRNA",
+        "ALGN",
+        "CHTR",
+        "CDNS",
+        "TTWO",
+        "IDXX",
+        "MELI"
+      ],
+      "weights": [
+        0.6,
+        0.025055418644528628,
+        0.05812182108313444,
+        0.022565097163348438,
+        0.06142123045457729,
+        0.041883980260855706,
+        0.05222331250892565,
+        0.0387291398846299,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38426915969811803,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-013",
+      "group": "cash_boundary",
+      "symbols": [
+        "HSIC",
+        "CDNS",
+        "ADBE",
+        "VRTX",
+        "MELI",
+        "FFIV",
+        "CHTR"
+      ],
+      "weights": [
+        0.6,
+        0.07450478892815185,
+        0.04717785313090039,
+        0.08273018851297656,
+        0.058944646242662185,
+        0.042366157372470105,
+        0.09427636581283894,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38877839325271957,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-014",
+      "group": "cash_boundary",
+      "symbols": [
+        "ALGN",
+        "VRTX",
+        "CHTR",
+        "INCY",
+        "HSIC",
+        "IDXX"
+      ],
+      "weights": [
+        0.6,
+        0.010872562733997782,
+        0.037107526382217274,
+        0.16554742254386148,
+        0.031511956849079155,
+        0.05496053149084436,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.40291479369174177,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-015",
+      "group": "cash_boundary",
+      "symbols": [
+        "ULTA",
+        "CHTR",
+        "SNPS",
+        "MELI",
+        "ADSK"
+      ],
+      "weights": [
+        0.6,
+        0.06805265218854509,
+        0.10837513316976634,
+        0.010348772975628326,
+        0.1132234416660603,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.39930297780426854,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-016",
+      "group": "cash_boundary",
+      "symbols": [
+        "UAL",
+        "TTWO",
+        "MRNA",
+        "ZBRA",
+        "MELI",
+        "AMD",
+        "LULU",
+        "DLTR"
+      ],
+      "weights": [
+        0.6,
+        0.05254047185361647,
+        0.06414613182277373,
+        0.08175564965912901,
+        0.07761060441678591,
+        0.029207199332550768,
+        0.05151795236002302,
+        0.04322199055512111,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3849579199553183,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-017",
+      "group": "cash_boundary",
+      "symbols": [
+        "HOLX",
+        "IDXX",
+        "FFIV",
+        "INCY",
+        "MELI",
+        "HSIC",
+        "UAL"
+      ],
+      "weights": [
+        0.6,
+        0.07240192416605586,
+        0.04480503663109297,
+        0.04422245475293014,
+        0.054148193195351094,
+        0.07822286320819292,
+        0.006199528046377005,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38829443273764236,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-018",
+      "group": "cash_boundary",
+      "symbols": [
+        "ADSK",
+        "IDXX",
+        "LULU",
+        "FFIV",
+        "TTWO",
+        "MELI"
+      ],
+      "weights": [
+        0.6,
+        0.08796520312281975,
+        0.009683699546574547,
+        0.05618849651964985,
+        0.15124039739288156,
+        0.09492220341807428,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.4028726806437849,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-019",
+      "group": "cash_boundary",
+      "symbols": [
+        "IDXX",
+        "CHTR",
+        "HSIC",
+        "VRTX",
+        "AKAM",
+        "SNPS",
+        "ZBRA"
+      ],
+      "weights": [
+        0.6,
+        0.015314003628903694,
+        0.05613045035712636,
+        0.03782444830693125,
+        0.06815764551163242,
+        0.10480154293882839,
+        0.017771909256577963,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3907605038568361,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-020",
+      "group": "cash_boundary",
+      "symbols": [
+        "IDXX",
+        "ADBE",
+        "SNPS",
+        "ULTA",
+        "CDNS"
+      ],
+      "weights": [
+        0.6,
+        0.06829030458933638,
+        0.040564526559777624,
+        0.118621683664796,
+        0.17252348518608998,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.4101445032921492,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-021",
+      "group": "cash_boundary",
+      "symbols": [
+        "DLTR",
+        "UAL",
+        "AMD",
+        "HOLX",
+        "CDNS",
+        "FFIV"
+      ],
+      "weights": [
+        0.6,
+        0.04083809653323137,
+        0.11539098007772225,
+        0.04305223943647479,
+        0.06452276328856692,
+        0.1361959206640047,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3995488395201587,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-022",
+      "group": "cash_boundary",
+      "symbols": [
+        "ULTA",
+        "WDAY",
+        "MELI",
+        "LULU",
+        "UAL",
+        "ALGN",
+        "AMD",
+        "CHTR"
+      ],
+      "weights": [
+        0.6,
+        0.04508821533105147,
+        0.03921302512621829,
+        0.024078057701916355,
+        0.06736797702717541,
+        0.056748241613728836,
+        0.03044143802834403,
+        0.03706304517156566,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3842095190855927,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-023",
+      "group": "cash_boundary",
+      "symbols": [
+        "SNPS",
+        "UAL",
+        "ZBRA",
+        "CHTR",
+        "INCY",
+        "CDNS",
+        "HSIC",
+        "TTWO",
+        "LULU",
+        "HOLX"
+      ],
+      "weights": [
+        0.6,
+        0.03548358605754149,
+        0.03645575959170474,
+        0.02690110801951244,
+        0.10091924682512321,
+        0.03356934213252869,
+        0.04170523383902402,
+        0.044028872013115665,
+        0.019368777919785155,
+        0.06156807360166458,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3824670173559904,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-024",
+      "group": "cash_boundary",
+      "symbols": [
+        "FFIV",
+        "ADSK",
+        "ADBE",
+        "AMD",
+        "HSIC",
+        "ULTA",
+        "CDNS",
+        "AKAM"
+      ],
+      "weights": [
+        0.6,
+        0.037888320206583434,
+        0.06252759826957395,
+        0.03526015163291598,
+        0.03137010698816828,
+        0.06889934258759685,
+        0.04729075044612837,
+        0.016763729869033142,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3848371443849461,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-025",
+      "group": "cash_boundary",
+      "symbols": [
+        "ZBRA",
+        "AMD",
+        "LULU",
+        "ALGN",
+        "CHTR"
+      ],
+      "weights": [
+        0.6,
+        0.06936377324279512,
+        0.03220253941444583,
+        0.13092716050772235,
+        0.1675065268350367,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.4110486944741686,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-026",
+      "group": "cash_boundary",
+      "symbols": [
+        "INCY",
+        "ADSK",
+        "MRNA",
+        "SNPS",
+        "AMD",
+        "ZBRA",
+        "ALGN",
+        "UAL"
+      ],
+      "weights": [
+        0.6,
+        0.04890436805826368,
+        0.023330460835488204,
+        0.08653081563796025,
+        0.04515207873696855,
+        0.03160776452496913,
+        0.06676321989753987,
+        0.09771129230881032,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38746611484122534,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-027",
+      "group": "cash_boundary",
+      "symbols": [
+        "VRTX",
+        "INCY",
+        "DLTR",
+        "ALGN",
+        "SNPS",
+        "TTWO",
+        "IDXX"
+      ],
+      "weights": [
+        0.6,
+        0.07978655587363542,
+        0.021901369906596364,
+        0.14560753230621085,
+        0.08092442593593836,
+        0.037599693392865785,
+        0.03418042258475322,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.39717791891063753,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-028",
+      "group": "cash_boundary",
+      "symbols": [
+        "AMD",
+        "IDXX",
+        "ADBE",
+        "LULU",
+        "DLTR",
+        "ADSK",
+        "CHTR",
+        "AKAM"
+      ],
+      "weights": [
+        0.6,
+        0.1318833926344974,
+        0.024905473541920332,
+        0.01953005771059847,
+        0.013075675728722974,
+        0.019725408029251525,
+        0.10364736690290897,
+        0.08723262545210032,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.39730730764616745,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-029",
+      "group": "cash_boundary",
+      "symbols": [
+        "AKAM",
+        "IDXX",
+        "ALGN",
+        "ADBE",
+        "ADSK",
+        "SNPS",
+        "INCY"
+      ],
+      "weights": [
+        0.6,
+        0.06876882939357588,
+        0.09214345679195758,
+        0.03259209573779715,
+        0.024459975355194473,
+        0.06707226498619452,
+        0.014963377735280465,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3896026950283195,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-030",
+      "group": "cash_boundary",
+      "symbols": [
+        "ADBE",
+        "MELI",
+        "FFIV",
+        "ALGN",
+        "VRTX",
+        "SNPS",
+        "ZBRA"
+      ],
+      "weights": [
+        0.6,
+        0.049032525814796155,
+        0.07677737846654233,
+        0.06045814956015441,
+        0.07834586897324722,
+        0.11739789881445668,
+        0.017988178370803243,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.39219805867253377,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-031",
+      "group": "cash_boundary",
+      "symbols": [
+        "MRNA",
+        "IDXX",
+        "LULU",
+        "VRTX",
+        "WDAY",
+        "HSIC"
+      ],
+      "weights": [
+        0.6,
+        0.17349464179975813,
+        0.04057456937336573,
+        0.023666948898998588,
+        0.03967439242727587,
+        0.022589447500601708,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.40439115143610416,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-032",
+      "group": "cash_boundary",
+      "symbols": [
+        "DLTR",
+        "ULTA",
+        "AKAM",
+        "UAL",
+        "MELI",
+        "VRTX"
+      ],
+      "weights": [
+        0.6,
+        0.060399145812934,
+        0.035537175365722116,
+        0.023633780602695637,
+        0.22882065785520217,
+        0.0516092403634461,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.4204919103856619,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-033",
+      "group": "cash_boundary",
+      "symbols": [
+        "LULU",
+        "AMD",
+        "CDNS",
+        "HOLX",
+        "UAL",
+        "ULTA",
+        "MRNA",
+        "VRTX",
+        "MELI"
+      ],
+      "weights": [
+        0.6,
+        0.05423648501834582,
+        0.042005750987397394,
+        0.08092396536885434,
+        0.057346533858051954,
+        0.06965955246328319,
+        0.04726625860781686,
+        0.03137664495908542,
+        0.017184808737165106,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3829097564921001,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-034",
+      "group": "cash_boundary",
+      "symbols": [
+        "MELI",
+        "TTWO",
+        "HOLX",
+        "INCY",
+        "FFIV",
+        "CHTR",
+        "ULTA",
+        "ADSK",
+        "ALGN",
+        "WDAY"
+      ],
+      "weights": [
+        0.6,
+        0.05671077247703554,
+        0.03576706467079575,
+        0.029863884656226136,
+        0.05010597477133005,
+        0.011183316172509108,
+        0.03957264021826859,
+        0.0729330870050196,
+        0.08602364404689496,
+        0.017839615981920336,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38262646977268233,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-035",
+      "group": "cash_boundary",
+      "symbols": [
+        "VRTX",
+        "ZBRA",
+        "MELI",
+        "AMD",
+        "HOLX"
+      ],
+      "weights": [
+        0.6,
+        0.06109693569763074,
+        0.05448325302298564,
+        0.1739453220755908,
+        0.1104744892037928,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.409162848248427,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-036",
+      "group": "cash_boundary",
+      "symbols": [
+        "WDAY",
+        "ALGN",
+        "ZBRA",
+        "AMD",
+        "HSIC",
+        "VRTX",
+        "CDNS"
+      ],
+      "weights": [
+        0.6,
+        0.10223015077100173,
+        0.030592112035781684,
+        0.04527750319118128,
+        0.05978577682267574,
+        0.02730029416877591,
+        0.03481416301058374,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38896860445881903,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-037",
+      "group": "cash_boundary",
+      "symbols": [
+        "ADSK",
+        "MRNA",
+        "DLTR",
+        "HSIC",
+        "ULTA",
+        "CDNS",
+        "ZBRA",
+        "AKAM",
+        "UAL",
+        "AMD"
+      ],
+      "weights": [
+        0.6,
+        0.03373544879790836,
+        0.046064727524977735,
+        0.04592307632130885,
+        0.028260248636639396,
+        0.019790788892929744,
+        0.04358813770846159,
+        0.0362694155762247,
+        0.020126712361128864,
+        0.026241444180420806,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38086837974264315,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-038",
+      "group": "cash_boundary",
+      "symbols": [
+        "WDAY",
+        "SNPS",
+        "INCY",
+        "ULTA",
+        "FFIV",
+        "TTWO",
+        "MELI",
+        "DLTR",
+        "HSIC"
+      ],
+      "weights": [
+        0.6,
+        0.05575764283763181,
+        0.04656595708635936,
+        0.08950803184960161,
+        0.05815716252534107,
+        0.05854085399522857,
+        0.03389891788669411,
+        0.03625995593557512,
+        0.021311477883568325,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3830163781271769,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-039",
+      "group": "cash_boundary",
+      "symbols": [
+        "UAL",
+        "ULTA",
+        "TTWO",
+        "MELI",
+        "INCY",
+        "HSIC",
+        "WDAY"
+      ],
+      "weights": [
+        0.6,
+        0.06570298287366005,
+        0.03843997437282156,
+        0.11953277220593371,
+        0.0408195209304619,
+        0.07749913204150657,
+        0.05800561757561623,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3911195976460232,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-040",
+      "group": "cash_boundary",
+      "symbols": [
+        "VRTX",
+        "LULU",
+        "CDNS",
+        "SNPS",
+        "AMD"
+      ],
+      "weights": [
+        0.6,
+        0.08302205210528955,
+        0.1801086551471351,
+        0.07847420434189262,
+        0.05839508840568276,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.40889997589168364,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-041",
+      "group": "cash_boundary",
+      "symbols": [
+        "AKAM",
+        "ALGN",
+        "WDAY",
+        "MELI",
+        "TTWO",
+        "HSIC",
+        "INCY",
+        "VRTX",
+        "ZBRA"
+      ],
+      "weights": [
+        0.6,
+        0.01873631467706544,
+        0.044663655636244214,
+        0.035038819988084134,
+        0.04196208219494836,
+        0.06651851229572163,
+        0.06264818927765435,
+        0.11262395054840396,
+        0.017808475381878047,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3866852310011252,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-042",
+      "group": "cash_boundary",
+      "symbols": [
+        "ADSK",
+        "UAL",
+        "FFIV",
+        "INCY",
+        "ADBE",
+        "AKAM",
+        "LULU",
+        "ZBRA"
+      ],
+      "weights": [
+        0.6,
+        0.03807962075012078,
+        0.054098307940837885,
+        0.030181705356001537,
+        0.04756736689336578,
+        0.047481363919711174,
+        0.050620876559613996,
+        0.0319707585803489,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.383389356637442,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-043",
+      "group": "cash_boundary",
+      "symbols": [
+        "CDNS",
+        "ULTA",
+        "MELI",
+        "HSIC",
+        "TTWO"
+      ],
+      "weights": [
+        0.6,
+        0.03730727035093666,
+        0.2054805658519876,
+        0.09870901029935612,
+        0.0585031534977196,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.41678018304734704,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-044",
+      "group": "cash_boundary",
+      "symbols": [
+        "VRTX",
+        "FFIV",
+        "LULU",
+        "ALGN",
+        "HSIC",
+        "CDNS",
+        "SNPS",
+        "TTWO",
+        "CHTR",
+        "MRNA"
+      ],
+      "weights": [
+        0.6,
+        0.05822192196165843,
+        0.07812599134034091,
+        0.045046152921994244,
+        0.02181405322293341,
+        0.038178941023027387,
+        0.019831785389096006,
+        0.025043342968942076,
+        0.0033452073921394865,
+        0.010392603779868097,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38459576843314586,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-045",
+      "group": "cash_boundary",
+      "symbols": [
+        "ALGN",
+        "CHTR",
+        "VRTX",
+        "AMD",
+        "WDAY",
+        "DLTR",
+        "CDNS",
+        "MELI"
+      ],
+      "weights": [
+        0.6,
+        0.05755813283804778,
+        0.06209989197851515,
+        0.031158926197803805,
+        0.09646553815674427,
+        0.027164311855671475,
+        0.06657590280269632,
+        0.058977296170521165,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38609438610938773,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-046",
+      "group": "cash_boundary",
+      "symbols": [
+        "AKAM",
+        "UAL",
+        "FFIV",
+        "ADBE",
+        "ULTA",
+        "ZBRA",
+        "HOLX",
+        "INCY",
+        "TTWO"
+      ],
+      "weights": [
+        0.6,
+        0.05337173262651085,
+        0.028109218126879675,
+        0.009797686933797296,
+        0.05738224103551394,
+        0.02003604665898198,
+        0.016489807351027164,
+        0.07048234025957914,
+        0.04433092700770996,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3846337345327957,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-047",
+      "group": "cash_boundary",
+      "symbols": [
+        "ULTA",
+        "SNPS",
+        "MELI",
+        "CDNS",
+        "ZBRA",
+        "AMD",
+        "CHTR"
+      ],
+      "weights": [
+        0.6,
+        0.051991080426927995,
+        0.05369508931759155,
+        0.07288942720829392,
+        0.029421380084240868,
+        0.14788163330430232,
+        0.044121389658643394,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.39558039575975595,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-048",
+      "group": "cash_boundary",
+      "symbols": [
+        "ULTA",
+        "UAL",
+        "DLTR",
+        "LULU",
+        "AKAM",
+        "ZBRA"
+      ],
+      "weights": [
+        0.6,
+        0.10500130471926666,
+        0.06689273936566778,
+        0.03761049315640873,
+        0.028091699665424113,
+        0.062403763093232714,
+        0.1
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3915978350063484,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "cash_boundary-049",
+      "group": "cash_boundary",
+      "symbols": [
+        "LULU",
+        "MELI",
+        "HSIC",
+        "ADSK",
+        "VRTX",
+        "CDNS",
+        "FFIV",
+        "IDXX",
+        "ZBRA",
+        "ADBE"
+      ],
+      "weights": [
+        0.6,
+        0.023134781190938692,
+        0.07061203683799085,
+        0.07216313401022173,
+        0.014567635977993099,
+        0.08956026373136866,
+        0.02906165660156841,
+        0.04388547817138519,
+        0.029170608613858836,
+        0.027844404864674595,
+        0.0
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.38335880298288866,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-000",
+      "group": "breadth",
+      "symbols": [
+        "AMD",
+        "ALGN",
+        "VRTX",
+        "HSIC",
+        "IDXX"
+      ],
+      "weights": [
+        0.19685436771504775,
+        0.2042042033269554,
+        0.17208626988383516,
+        0.18889969935810785,
+        0.20582256456489195,
+        0.03213289515116213
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18914323047986817,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-001",
+      "group": "breadth",
+      "symbols": [
+        "ULTA",
+        "ZBRA",
+        "AMD",
+        "IDXX",
+        "TTWO"
+      ],
+      "weights": [
+        0.2711695295171351,
+        0.10605764528678534,
+        0.2468095018218521,
+        0.24426685357861938,
+        0.10836655127724988,
+        0.023329918518358195
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.21764995834286952,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-002",
+      "group": "breadth",
+      "symbols": [
+        "AKAM",
+        "LULU",
+        "WDAY",
+        "TTWO",
+        "HOLX"
+      ],
+      "weights": [
+        0.17464312435816975,
+        0.1483194851702935,
+        0.11434949686058914,
+        0.20925021108419317,
+        0.3018429038657608,
+        0.05159477866099384
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20313150863700521,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-003",
+      "group": "breadth",
+      "symbols": [
+        "TTWO",
+        "ADSK",
+        "ADBE",
+        "MRNA",
+        "SNPS"
+      ],
+      "weights": [
+        0.18993389538694727,
+        0.2521720443176955,
+        0.07935912037606228,
+        0.22349461358279418,
+        0.22413342416252569,
+        0.030906902173974817
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20710436526842074,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-004",
+      "group": "breadth",
+      "symbols": [
+        "IDXX",
+        "SNPS",
+        "ALGN",
+        "AMD",
+        "DLTR"
+      ],
+      "weights": [
+        0.3237075254854559,
+        0.178593471658361,
+        0.2009722432548717,
+        0.04303312325945043,
+        0.17448979994864383,
+        0.07920383639321707
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.21564382041678248,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-005",
+      "group": "breadth",
+      "symbols": [
+        "ADSK",
+        "MRNA",
+        "WDAY",
+        "VRTX",
+        "ALGN"
+      ],
+      "weights": [
+        0.20638645057860475,
+        0.08092197508311043,
+        0.23520224804589157,
+        0.26149962120238335,
+        0.1455874542164151,
+        0.07040225087359485
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.19899806616190283,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-006",
+      "group": "breadth",
+      "symbols": [
+        "HSIC",
+        "SNPS",
+        "MRNA",
+        "WDAY",
+        "ADBE"
+      ],
+      "weights": [
+        0.06116393641931265,
+        0.06518277953423537,
+        0.3497582954902775,
+        0.1412422539406843,
+        0.30230966107901497,
+        0.08034307353647517
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.24811620207561982,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-007",
+      "group": "breadth",
+      "symbols": [
+        "ZBRA",
+        "ADSK",
+        "VRTX",
+        "HOLX",
+        "MELI"
+      ],
+      "weights": [
+        0.22003299988157057,
+        0.06790488218062384,
+        0.20952056469218394,
+        0.2625390481038916,
+        0.15713266959489328,
+        0.0828698355468368
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.19740929836665447,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-008",
+      "group": "breadth",
+      "symbols": [
+        "UAL",
+        "SNPS",
+        "AKAM",
+        "INCY",
+        "CDNS"
+      ],
+      "weights": [
+        0.0346420532206537,
+        0.15496874927497803,
+        0.4356672964258377,
+        0.1833047726467647,
+        0.1755175532341034,
+        0.015899575197662243
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.27968122593802686,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-009",
+      "group": "breadth",
+      "symbols": [
+        "INCY",
+        "TTWO",
+        "CHTR",
+        "HOLX",
+        "VRTX"
+      ],
+      "weights": [
+        0.2848178261919135,
+        0.1660805297913114,
+        0.1564038179153041,
+        0.17451439818798498,
+        0.15127689733210176,
+        0.06690653058138434
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1909825494267129,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-010",
+      "group": "breadth",
+      "symbols": [
+        "SNPS",
+        "FFIV",
+        "AMD",
+        "WDAY",
+        "IDXX"
+      ],
+      "weights": [
+        0.20935551357589746,
+        0.12311464252911612,
+        0.14511438096395785,
+        0.3304876395575241,
+        0.1314061546682701,
+        0.060521668705234434
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.210197659600124,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-011",
+      "group": "breadth",
+      "symbols": [
+        "LULU",
+        "DLTR",
+        "INCY",
+        "CHTR",
+        "ZBRA"
+      ],
+      "weights": [
+        0.2750515105042335,
+        0.29924650899742183,
+        0.054856295335757664,
+        0.2961040364785174,
+        0.0672873990642713,
+        0.007454249619798259
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2604717800448683,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-012",
+      "group": "breadth",
+      "symbols": [
+        "ADBE",
+        "ZBRA",
+        "MRNA",
+        "TTWO",
+        "CDNS"
+      ],
+      "weights": [
+        0.1659049435123661,
+        0.19204818520887387,
+        0.17509032315474735,
+        0.238961103834694,
+        0.13899969529185638,
+        0.08899574899746246
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.17940714476304082,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-013",
+      "group": "breadth",
+      "symbols": [
+        "FFIV",
+        "AKAM",
+        "CDNS",
+        "WDAY",
+        "ADBE"
+      ],
+      "weights": [
+        0.31467883452864776,
+        0.07186087366337632,
+        0.20746941961150475,
+        0.15675504394918477,
+        0.1601172865334381,
+        0.0891185417138483
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.20538211786545132,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-014",
+      "group": "breadth",
+      "symbols": [
+        "WDAY",
+        "FFIV",
+        "ADBE",
+        "INCY",
+        "UAL"
+      ],
+      "weights": [
+        0.1296463922885,
+        0.2020512349237719,
+        0.12719292223201106,
+        0.36573064022058566,
+        0.1535648202317165,
+        0.02181399010341485
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.23162783340675405,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-015",
+      "group": "breadth",
+      "symbols": [
+        "VRTX",
+        "IDXX",
+        "ALGN",
+        "AKAM",
+        "ZBRA"
+      ],
+      "weights": [
+        0.30968276109914866,
+        0.1187277748242813,
+        0.13971406943315065,
+        0.2008564533342863,
+        0.15540044213348042,
+        0.07561849917565251
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.19973048791317657,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-016",
+      "group": "breadth",
+      "symbols": [
+        "MELI",
+        "ULTA",
+        "AKAM",
+        "SNPS",
+        "CHTR"
+      ],
+      "weights": [
+        0.15058082765272468,
+        0.04416090724547369,
+        0.09431277281229362,
+        0.5422477254063091,
+        0.14321971693858893,
+        0.02547804994460985
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3487132845581317,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-017",
+      "group": "breadth",
+      "symbols": [
+        "ALGN",
+        "INCY",
+        "TTWO",
+        "DLTR",
+        "ZBRA"
+      ],
+      "weights": [
+        0.13340531939538702,
+        0.2807631890279434,
+        0.19653930288009855,
+        0.16594855825121277,
+        0.21679514852543746,
+        0.006548481919920668
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2098345881579992,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-018",
+      "group": "breadth",
+      "symbols": [
+        "INCY",
+        "TTWO",
+        "CDNS",
+        "DLTR",
+        "MELI"
+      ],
+      "weights": [
+        0.13624709744654234,
+        0.041661573636688404,
+        0.13351808741670945,
+        0.20482253104597242,
+        0.41647156505820704,
+        0.0672791453958803
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2580533550792196,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-019",
+      "group": "breadth",
+      "symbols": [
+        "ADBE",
+        "AMD",
+        "FFIV",
+        "SNPS",
+        "MELI"
+      ],
+      "weights": [
+        0.08661063210778773,
+        0.19786610231630217,
+        0.25673136000218516,
+        0.1581843662248997,
+        0.20875592026364584,
+        0.0918516190851795
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18960143514019126,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-020",
+      "group": "breadth",
+      "symbols": [
+        "WDAY",
+        "INCY",
+        "ZBRA",
+        "ADBE",
+        "MELI"
+      ],
+      "weights": [
+        0.387355743197929,
+        0.16752555062910937,
+        0.19278473188786358,
+        0.11651994532486046,
+        0.08152749884779378,
+        0.05428653011244379
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.23844589282961637,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-021",
+      "group": "breadth",
+      "symbols": [
+        "ZBRA",
+        "CHTR",
+        "ULTA",
+        "DLTR",
+        "CDNS"
+      ],
+      "weights": [
+        0.3256151630868315,
+        0.11304503733279282,
+        0.21675740706313457,
+        0.14324415844959812,
+        0.14832886660157868,
+        0.053009367466064376
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.2111185230507646,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-022",
+      "group": "breadth",
+      "symbols": [
+        "TTWO",
+        "LULU",
+        "CHTR",
+        "WDAY",
+        "ADSK"
+      ],
+      "weights": [
+        0.2540139952710344,
+        0.07821396666950757,
+        0.15073923847728135,
+        0.22754639838404853,
+        0.27331498273526594,
+        0.016171418462862176
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.22010281037267446,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-023",
+      "group": "breadth",
+      "symbols": [
+        "ALGN",
+        "VRTX",
+        "ADSK",
+        "INCY",
+        "AKAM"
+      ],
+      "weights": [
+        0.18156746554339265,
+        0.24151843233079345,
+        0.12920238980710308,
+        0.17060711746214632,
+        0.19035137327521484,
+        0.08675322158134968
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.18085771052248728,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-024",
+      "group": "breadth",
+      "symbols": [
+        "CHTR",
+        "INCY",
+        "ADBE",
+        "ALGN",
+        "ULTA"
+      ],
+      "weights": [
+        0.16906911575388037,
+        0.581782670329749,
+        0.03280794952648285,
+        0.08808360745044679,
+        0.047952281811711316,
+        0.08030437512772975
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.3846387388470339,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-025",
+      "group": "breadth",
+      "symbols": [
+        "DLTR",
+        "FFIV",
+        "INCY",
+        "LULU",
+        "MRNA",
+        "IDXX",
+        "ADBE",
+        "ULTA",
+        "SNPS",
+        "ALGN"
+      ],
+      "weights": [
+        0.02791652543580536,
+        0.08991192453497687,
+        0.11038318536954184,
+        0.14944655837480364,
+        0.08714815411749184,
+        0.05718602010063166,
+        0.05821170623731997,
+        0.09968314736725625,
+        0.13414615887814396,
+        0.1102287040873466,
+        0.07573791549668207
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10345437325184831,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-026",
+      "group": "breadth",
+      "symbols": [
+        "AKAM",
+        "MELI",
+        "DLTR",
+        "AMD",
+        "ZBRA",
+        "WDAY",
+        "VRTX",
+        "MRNA",
+        "LULU",
+        "ALGN"
+      ],
+      "weights": [
+        0.03803929805668393,
+        0.1769556035848708,
+        0.1070109106910083,
+        0.013742487072213367,
+        0.1571796818604852,
+        0.09745800207889359,
+        0.08573072478947118,
+        0.09840002691852966,
+        0.11757119116918294,
+        0.04085755618002337,
+        0.06705451759863772
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.1156249350443788,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-027",
+      "group": "breadth",
+      "symbols": [
+        "MRNA",
+        "UAL",
+        "ALGN",
+        "SNPS",
+        "ZBRA",
+        "VRTX",
+        "ADBE",
+        "CHTR",
+        "TTWO",
+        "CDNS"
+      ],
+      "weights": [
+        0.07006927239574876,
+        0.05147765956473665,
+        0.1442356445087881,
+        0.1384023557070166,
+        0.07685414524168568,
+        0.07577442081162579,
+        0.08400041610753864,
+        0.0821805852640683,
+        0.16670115951495698,
+        0.06938286089383718,
+        0.04092147998999739
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10725465206521795,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-028",
+      "group": "breadth",
+      "symbols": [
+        "FFIV",
+        "ALGN",
+        "MELI",
+        "SNPS",
+        "TTWO",
+        "MRNA",
+        "INCY",
+        "ADBE",
+        "AMD",
+        "IDXX"
+      ],
+      "weights": [
+        0.2501885454170913,
+        0.08080183666564561,
+        0.06331487088266716,
+        0.08136887888737983,
+        0.06374705733727999,
+        0.058772911499692784,
+        0.12302341965001579,
+        0.13499912295046065,
+        0.020020597469910376,
+        0.08791584712976726,
+        0.035846912110089314
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.13004540142525545,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-029",
+      "group": "breadth",
+      "symbols": [
+        "HOLX",
+        "ADSK",
+        "ALGN",
+        "AMD",
+        "WDAY",
+        "MELI",
+        "VRTX",
+        "TTWO",
+        "MRNA",
+        "IDXX"
+      ],
+      "weights": [
+        0.08412057082634698,
+        0.055068101679047333,
+        0.06251443133822168,
+        0.08822663032825513,
+        0.15680389203787568,
+        0.07292265810143979,
+        0.1775956793330163,
+        0.05476173212105667,
+        0.11558629714790208,
+        0.11762856265370272,
+        0.014771444433135772
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11365987233974374,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-030",
+      "group": "breadth",
+      "symbols": [
+        "MELI",
+        "ULTA",
+        "AKAM",
+        "HOLX",
+        "CDNS",
+        "IDXX",
+        "INCY",
+        "VRTX",
+        "ZBRA",
+        "UAL"
+      ],
+      "weights": [
+        0.07484607726748357,
+        0.034700305711383425,
+        0.10289292265377313,
+        0.23789582850509278,
+        0.044223928986070464,
+        0.059102174054461505,
+        0.06348366434708237,
+        0.08252663542443685,
+        0.21695778822548722,
+        0.08135193490108121,
+        0.0020187399236473724
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.14396996381221766,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-031",
+      "group": "breadth",
+      "symbols": [
+        "ZBRA",
+        "ULTA",
+        "DLTR",
+        "WDAY",
+        "AMD",
+        "ADBE",
+        "HOLX",
+        "INCY",
+        "MRNA",
+        "ALGN"
+      ],
+      "weights": [
+        0.03935750355010323,
+        0.07550752543502551,
+        0.09148736489345366,
+        0.08568236032019186,
+        0.08884960328584877,
+        0.18621881272435967,
+        0.10772913026256829,
+        0.1374558891448904,
+        0.03628523413608958,
+        0.11306239954388261,
+        0.03836417670358638
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11160472393354458,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-032",
+      "group": "breadth",
+      "symbols": [
+        "HSIC",
+        "AKAM",
+        "ULTA",
+        "MELI",
+        "FFIV",
+        "ZBRA",
+        "UAL",
+        "CDNS",
+        "ADSK",
+        "IDXX"
+      ],
+      "weights": [
+        0.11745640127772414,
+        0.1215683391734077,
+        0.09572078186852388,
+        0.07458345603433862,
+        0.021487996574261134,
+        0.0632477846350299,
+        0.11039174189902698,
+        0.051097661429991385,
+        0.19382523401382637,
+        0.060785016898370146,
+        0.0898355861954997
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11189282339411086,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-033",
+      "group": "breadth",
+      "symbols": [
+        "VRTX",
+        "ALGN",
+        "INCY",
+        "SNPS",
+        "MELI",
+        "MRNA",
+        "WDAY",
+        "CHTR",
+        "AKAM",
+        "CDNS"
+      ],
+      "weights": [
+        0.213418620773898,
+        0.052104807374942164,
+        0.10150059647793142,
+        0.07860137229816196,
+        0.1807454559044817,
+        0.06453196433796021,
+        0.13019129340700955,
+        0.019110575513065064,
+        0.053644332580209016,
+        0.08382102099449083,
+        0.022329960337849897
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12929355179123306,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-034",
+      "group": "breadth",
+      "symbols": [
+        "HOLX",
+        "ADSK",
+        "ALGN",
+        "ULTA",
+        "MRNA",
+        "UAL",
+        "TTWO",
+        "WDAY",
+        "LULU",
+        "AKAM"
+      ],
+      "weights": [
+        0.07207431611140788,
+        0.1359782823292044,
+        0.07538928516431646,
+        0.15528946612983846,
+        0.07556314086053734,
+        0.16344468152795036,
+        0.08095731109640714,
+        0.04077933394823422,
+        0.05604486196924203,
+        0.06695390625955877,
+        0.07752541460330271
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10775819741628859,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-035",
+      "group": "breadth",
+      "symbols": [
+        "WDAY",
+        "SNPS",
+        "ALGN",
+        "UAL",
+        "LULU",
+        "HSIC",
+        "INCY",
+        "AMD",
+        "VRTX",
+        "ULTA"
+      ],
+      "weights": [
+        0.13305128674331437,
+        0.05057354151715429,
+        0.07370159270501404,
+        0.10554969303858167,
+        0.11263995198162867,
+        0.02290042529509762,
+        0.11775378472674189,
+        0.10269211793666123,
+        0.11709468515457855,
+        0.06531295592888318,
+        0.0987299649723446
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10218135712540106,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-036",
+      "group": "breadth",
+      "symbols": [
+        "HSIC",
+        "IDXX",
+        "ADSK",
+        "WDAY",
+        "VRTX",
+        "CHTR",
+        "ALGN",
+        "LULU",
+        "MRNA",
+        "ULTA"
+      ],
+      "weights": [
+        0.07346791022715143,
+        0.1028263107668655,
+        0.12184995019168736,
+        0.14875722265664715,
+        0.10846618017904883,
+        0.09389951483507318,
+        0.06725016582346705,
+        0.11375610946809644,
+        0.08884273623017187,
+        0.015221923114579443,
+        0.06566197650721171
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10342820792980582,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-037",
+      "group": "breadth",
+      "symbols": [
+        "UAL",
+        "HSIC",
+        "AKAM",
+        "DLTR",
+        "LULU",
+        "ZBRA",
+        "ALGN",
+        "INCY",
+        "FFIV",
+        "MELI"
+      ],
+      "weights": [
+        0.013410214312321408,
+        0.11394884622981186,
+        0.21725524760783171,
+        0.066765517955034,
+        0.11867859563035933,
+        0.04353170647942876,
+        0.06162496373649215,
+        0.15125506381742276,
+        0.10098989392853001,
+        0.04363659851959391,
+        0.0689033517831743
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12432778271470586,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-038",
+      "group": "breadth",
+      "symbols": [
+        "MELI",
+        "AMD",
+        "ADSK",
+        "DLTR",
+        "MRNA",
+        "CHTR",
+        "ALGN",
+        "CDNS",
+        "INCY",
+        "HOLX"
+      ],
+      "weights": [
+        0.046196914617639605,
+        0.1737631529110387,
+        0.13655143556034563,
+        0.04368726347065112,
+        0.056079673632418114,
+        0.1591940140545193,
+        0.1267526970638541,
+        0.028426567405959953,
+        0.08841904272170271,
+        0.10891610948652622,
+        0.032013129075344496
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11895012608057351,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-039",
+      "group": "breadth",
+      "symbols": [
+        "CHTR",
+        "ULTA",
+        "ADSK",
+        "ALGN",
+        "UAL",
+        "HSIC",
+        "CDNS",
+        "WDAY",
+        "IDXX",
+        "AMD"
+      ],
+      "weights": [
+        0.1273956615060417,
+        0.1158632888542735,
+        0.038199546431238955,
+        0.145964150947881,
+        0.15361587208766786,
+        0.1141646653019973,
+        0.1352266439868474,
+        0.0824465772249078,
+        0.030494608813607542,
+        0.05169132463527517,
+        0.004937660210261596
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11776007998259536,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-040",
+      "group": "breadth",
+      "symbols": [
+        "ADSK",
+        "HOLX",
+        "AKAM",
+        "VRTX",
+        "TTWO",
+        "SNPS",
+        "MRNA",
+        "ALGN",
+        "MELI",
+        "ZBRA"
+      ],
+      "weights": [
+        0.013911457554741363,
+        0.17229283870443873,
+        0.08613003077914325,
+        0.029422357255126305,
+        0.1447231341164264,
+        0.14291572044761383,
+        0.07849977271458276,
+        0.06484658521225213,
+        0.12363383685187841,
+        0.13108790588115726,
+        0.012536360482639664
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12252591587524296,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-041",
+      "group": "breadth",
+      "symbols": [
+        "HSIC",
+        "MELI",
+        "INCY",
+        "UAL",
+        "LULU",
+        "CHTR",
+        "ADSK",
+        "WDAY",
+        "SNPS",
+        "ADBE"
+      ],
+      "weights": [
+        0.13165920407994908,
+        0.13996739991721913,
+        0.029328924455842523,
+        0.08739915714062242,
+        0.06438378911161846,
+        0.0546046688557959,
+        0.051939757225402956,
+        0.07993350938164347,
+        0.08026019769994448,
+        0.20075661320280253,
+        0.07976677892915907
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11474552010132691,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-042",
+      "group": "breadth",
+      "symbols": [
+        "UAL",
+        "HSIC",
+        "CHTR",
+        "AMD",
+        "ADBE",
+        "MRNA",
+        "LULU",
+        "CDNS",
+        "ZBRA",
+        "IDXX"
+      ],
+      "weights": [
+        0.04982799710916107,
+        0.08461511875527505,
+        0.06505513385377681,
+        0.10379698843871445,
+        0.06264569513303199,
+        0.020520982969674053,
+        0.11798272057229,
+        0.11588545736337277,
+        0.1587838600118345,
+        0.18976231954490427,
+        0.031123726247965
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11853422676513739,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-043",
+      "group": "breadth",
+      "symbols": [
+        "VRTX",
+        "ADSK",
+        "LULU",
+        "INCY",
+        "HSIC",
+        "CDNS",
+        "AKAM",
+        "UAL",
+        "SNPS",
+        "HOLX"
+      ],
+      "weights": [
+        0.09999238094666749,
+        0.09605719999232376,
+        0.2252060351788172,
+        0.03836656975685252,
+        0.10349021404283601,
+        0.0806969394099154,
+        0.09841897262040991,
+        0.13624961486962384,
+        0.02047578858007048,
+        0.057481153894164416,
+        0.04356513070831907
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12250894761476949,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-044",
+      "group": "breadth",
+      "symbols": [
+        "LULU",
+        "VRTX",
+        "DLTR",
+        "CDNS",
+        "SNPS",
+        "WDAY",
+        "AKAM",
+        "ADBE",
+        "FFIV",
+        "HSIC"
+      ],
+      "weights": [
+        0.11822985504943545,
+        0.06957223339263967,
+        0.0569515056342388,
+        0.12156142370425194,
+        0.09358318055782057,
+        0.08417004823177372,
+        0.052364310192422235,
+        0.09786747680714221,
+        0.07588696577655782,
+        0.20302479749621977,
+        0.026788203157497914
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11269722851400421,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-045",
+      "group": "breadth",
+      "symbols": [
+        "VRTX",
+        "AMD",
+        "ALGN",
+        "UAL",
+        "ZBRA",
+        "ADBE",
+        "DLTR",
+        "IDXX",
+        "ULTA",
+        "FFIV"
+      ],
+      "weights": [
+        0.06298363380894066,
+        0.10327809041909793,
+        0.19015174556028153,
+        0.19951161427797423,
+        0.036788365255236904,
+        0.0646321595146049,
+        0.1343529683001699,
+        0.03888837596680319,
+        0.010693785907616429,
+        0.09688955656095083,
+        0.06182970442832352
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.12901445397520472,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-046",
+      "group": "breadth",
+      "symbols": [
+        "MRNA",
+        "INCY",
+        "AKAM",
+        "HSIC",
+        "ALGN",
+        "UAL",
+        "TTWO",
+        "LULU",
+        "ADSK",
+        "SNPS"
+      ],
+      "weights": [
+        0.11161133866519567,
+        0.04889226821551188,
+        0.053368695946829955,
+        0.06066294434784659,
+        0.08112975220316446,
+        0.05033120455906777,
+        0.08261703823776068,
+        0.16375768887276027,
+        0.16978238077061678,
+        0.13002644593757168,
+        0.04782024224367446
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11215288688248928,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-047",
+      "group": "breadth",
+      "symbols": [
+        "ADBE",
+        "CDNS",
+        "ALGN",
+        "ADSK",
+        "HSIC",
+        "IDXX",
+        "SNPS",
+        "INCY",
+        "AKAM",
+        "TTWO"
+      ],
+      "weights": [
+        0.14256034893931016,
+        0.08825722450247969,
+        0.10592832974381279,
+        0.06278204473752783,
+        0.13623316092911011,
+        0.05240421563280068,
+        0.08352076099377759,
+        0.04982483400976711,
+        0.15073460115425033,
+        0.08594305128501031,
+        0.04181142807215348
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10589441807096601,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-048",
+      "group": "breadth",
+      "symbols": [
+        "CDNS",
+        "CHTR",
+        "VRTX",
+        "SNPS",
+        "IDXX",
+        "LULU",
+        "HOLX",
+        "ADSK",
+        "MELI",
+        "ULTA"
+      ],
+      "weights": [
+        0.15974949643212574,
+        0.05130105355656892,
+        0.13803805610311892,
+        0.10329085056753409,
+        0.06504595411974562,
+        0.05599409751183107,
+        0.0511552756973751,
+        0.06640312909317292,
+        0.1589211518530653,
+        0.07931241553841824,
+        0.07078851952704406
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.10882516360025016,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    },
+    {
+      "portfolio_id": "breadth-049",
+      "group": "breadth",
+      "symbols": [
+        "SNPS",
+        "MELI",
+        "LULU",
+        "IDXX",
+        "VRTX",
+        "TTWO",
+        "HOLX",
+        "MRNA",
+        "AKAM",
+        "CDNS"
+      ],
+      "weights": [
+        0.13545037722198208,
+        0.10719256288923305,
+        0.06993279875905191,
+        0.14834359593677202,
+        0.06540336137860846,
+        0.07814097126956748,
+        0.17458909436246803,
+        0.03710596066422303,
+        0.036345361860229415,
+        0.13241292634627583,
+        0.01508298931158867
+      ],
+      "initial_nav_usd": 100000.0,
+      "hhi": 0.11805694924266841,
+      "attempts": 1,
+      "sampling_seed": 42,
+      "selection_basis": "Seeded holdings draw independent of test returns"
+    }
+  ],
+  "no_resampling": "Definitions drawn once and reused for both feeds and every rebalance; only held names plus cash."
+}

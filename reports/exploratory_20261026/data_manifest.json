@@ -1,0 +1,4704 @@
+{
+  "lane": "EXPLORATORY_REAL_MARKET",
+  "status": "HISTORICAL_RETURN_REPLAY",
+  "decision": "NO_TRADE",
+  "validated": false,
+  "root": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant",
+  "price_start": "2020-07-27",
+  "price_end": "2025-12-31",
+  "price_sessions": 1366,
+  "return_sessions": 1365,
+  "files": [
+    {
+      "symbol": "CHTR",
+      "local_security_id": "SEC000021",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.003437578509930539,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000021.jsonl",
+          "sha256": "743de5b4d6dbe4ee72efa788d3ace0ada475a652fe9013f22e255a552c1a28c4"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/CHTR.jsonl",
+          "sha256": "c2254fb645f9b2fb749b5ee7cc9356f1fd83715b093787abab812d3d9f43592d"
+        }
+      }
+    },
+    {
+      "symbol": "ADBE",
+      "local_security_id": "SEC000097",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.003154518988411681,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000097.jsonl",
+          "sha256": "7c48839acee0061c1e83f771c21dee88c461a2682b7f4fc15dac73328d36178d"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/ADBE.jsonl",
+          "sha256": "4a4c8b5ab2521805838368ca7756c5c51ff223c1050553065c8dbccf979a582e"
+        }
+      }
+    },
+    {
+      "symbol": "ADSK",
+      "local_security_id": "SEC000103",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.009689838852402488,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000103.jsonl",
+          "sha256": "9e926d1a67ab74230d9c17baf301d401a80f543a458f008347ebaf1160586405"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/ADSK.jsonl",
+          "sha256": "04bbb4782dc0b758e1eeedb632c1748046264b144eec535f19e1533f4ac038b0"
+        }
+      }
+    },
+    {
+      "symbol": "AKAM",
+      "local_security_id": "SEC000116",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.01144951474628808,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000116.jsonl",
+          "sha256": "2936a45d4c6ba41a356c9dbdf6dc86f61834be5a9a46adc27df37df9ac9eac8b"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/AKAM.jsonl",
+          "sha256": "636bf8aeac3207cd1d62aa7dec0033555fc259fe454a5b9c78c19aecea8ffb76"
+        }
+      }
+    },
+    {
+      "symbol": "ALGN",
+      "local_security_id": "SEC000120",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.007821257421233518,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000120.jsonl",
+          "sha256": "bbcdc2a945a46a925ae04062ebfbc5f177478ddf83dd747e0ab374ebd67bca39"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/ALGN.jsonl",
+          "sha256": "c4431fb502d7bcac841f9fcd5f224fed3775532a9f2b20e8bc06c474f195a39d"
+        }
+      }
+    },
+    {
+      "symbol": "AMD",
+      "local_security_id": "SEC000129",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.0037603476647651846,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000129.jsonl",
+          "sha256": "2abd1e1f11893dd89e686dcd6cd48857faacb5edf37d890901a175535343c09c"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/AMD.jsonl",
+          "sha256": "a5b7ce0d6d379fb1bd50a3a4eb04b560254c93176327a6e8431690d1dc1f414f"
+        }
+      }
+    },
+    {
+      "symbol": "CDNS",
+      "local_security_id": "SEC000248",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.008280678891784632,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000248.jsonl",
+          "sha256": "607f502fa759c43e2abf7d9e7afc651c4e6c5a11d55e27570c56bd4a386ae8cf"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/CDNS.jsonl",
+          "sha256": "84170a1c4e69f2bea67592c8cfa34b570028d78efb446d508cef8cd8fcc9b389"
+        }
+      }
+    },
+    {
+      "symbol": "DLTR",
+      "local_security_id": "SEC000353",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.02095859754540008,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000353.jsonl",
+          "sha256": "56b6956a64cd57b0d4a174a986d282daed76940c98c79c22329a042d94fa7181"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/DLTR.jsonl",
+          "sha256": "a7c2035770cf0a42731ce8e9c8e684e7c68c15dce458ce0a6e8bc4bfb61ae5d2"
+        }
+      }
+    },
+    {
+      "symbol": "FFIV",
+      "local_security_id": "SEC000431",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.013354608011773905,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000431.jsonl",
+          "sha256": "822108549656732265a41d87f3d6dd437a63d7369724ce63cbbbaa093ba85808"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/FFIV.jsonl",
+          "sha256": "fa3dc9af69def020f8401bf973cee75e40146d1cc754acb7898981e5af396c7f"
+        }
+      }
+    },
+    {
+      "symbol": "HOLX",
+      "local_security_id": "SEC000510",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.0092843457739189,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000510.jsonl",
+          "sha256": "7de77931e55edafb731ce8ff1cce053fe0e11d329aaa5381d7d2bde1b28c3c3c"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/HOLX.jsonl",
+          "sha256": "cbcd9626ede5a38fd3e32e880c145561293b4276e2e56b5b538eab5217c5d2df"
+        }
+      }
+    },
+    {
+      "symbol": "HSIC",
+      "local_security_id": "SEC000522",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.003995810377948494,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000522.jsonl",
+          "sha256": "87a5e4581697baf1f740bb663fd70a6680af539414da679a486b070043c211e8"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/HSIC.jsonl",
+          "sha256": "5791786712b7b5ce996917d36fe81067792910a316bc8bbfe809a2705e145391"
+        }
+      }
+    },
+    {
+      "symbol": "IDXX",
+      "local_security_id": "SEC000531",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.006093942274568498,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000531.jsonl",
+          "sha256": "b5a0c1f86d7642036fb5e00d2486c76c8fd91b0a694e4bf91141d95a8471b5af"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/IDXX.jsonl",
+          "sha256": "4e339f45a21be25c0b3bd1f826ef9d39ebf8589b4c26da21369cb3c255e357ec"
+        }
+      }
+    },
+    {
+      "symbol": "INCY",
+      "local_security_id": "SEC000536",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.022778028772783898,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000536.jsonl",
+          "sha256": "f3ba85528ae3f1f79a6a7a693ba2d7bce12fe1a8307aa414f99d8419e3be09b0"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/INCY.jsonl",
+          "sha256": "08e5e01179820c320b4c57ade46daaa7a710a5d9ec562f42634ce9248cbe3230"
+        }
+      }
+    },
+    {
+      "symbol": "LULU",
+      "local_security_id": "SEC000626",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.013176801507730929,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000626.jsonl",
+          "sha256": "94855df52a747e58af0268a7416ebee0eeb76484a87f8a0deb52ee2732731a81"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/LULU.jsonl",
+          "sha256": "210cd55b5b1a5b6c8d2091a349a7eae815922f949432a5614b06ea4aae721dbf"
+        }
+      }
+    },
+    {
+      "symbol": "MELI",
+      "local_security_id": "SEC000652",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.009856421116837488,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000652.jsonl",
+          "sha256": "0a09b15c6ca69defa3c58da049625493db26e221dde6e5680e9fc9b290d92121"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/MELI.jsonl",
+          "sha256": "aa853dc4f1dbc88dfdd6fc3808455ec10b449bc29488b40154c89b75f50ea7be"
+        }
+      }
+    },
+    {
+      "symbol": "MRNA",
+      "local_security_id": "SEC000679",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.008304261714437988,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000679.jsonl",
+          "sha256": "d2be5c82ccf091973fc398d1790c47d956519db728158c31ec26449c5eae6b2f"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/MRNA.jsonl",
+          "sha256": "d54cf01bd0bb1010ee03cc084840c56142304629a02740b05c32276bb6d3cbd2"
+        }
+      }
+    },
+    {
+      "symbol": "SNPS",
+      "local_security_id": "SEC000881",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.003830089410959303,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000881.jsonl",
+          "sha256": "075a4d8d26d6e5dab483af497d3d313bd4014b33fa314fceebc9dfd819ec1ab5"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/SNPS.jsonl",
+          "sha256": "893c9c8223c6d90e201f3c30e3392e47f5e679f4434e9b85e9c2243d18b34cf4"
+        }
+      }
+    },
+    {
+      "symbol": "TTWO",
+      "local_security_id": "SEC000956",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.0095340298542963,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000956.jsonl",
+          "sha256": "56d6d42304457e0e10a25c18dae51b7a9beff0ea34baf0e07955729d0352c292"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/TTWO.jsonl",
+          "sha256": "7202f1674c41ab13c6d218e03b5cff9be8b729ca01439242b24336e990780920"
+        }
+      }
+    },
+    {
+      "symbol": "UAL",
+      "local_security_id": "SEC000964",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.016711886549076738,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000964.jsonl",
+          "sha256": "ac05e87a4d94ab8e96382dbc2073be76dceeb6023f8916135302a42678e8fc07"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/UAL.jsonl",
+          "sha256": "e018136f8dcebe7cbd0eec932f0a03a9fa6d46f9e3aa06a877153ab0c0290fc2"
+        }
+      }
+    },
+    {
+      "symbol": "ULTA",
+      "local_security_id": "SEC000970",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.004388533553210117,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000970.jsonl",
+          "sha256": "2b6c57ebdd742fbd8f9f3a3e1f4e097d2ae08198a58328d092c1deb637124b87"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/ULTA.jsonl",
+          "sha256": "0493c2171dff2cf71bd5c1322090234e7170f3bd92eecb4aac4959aa305ac945"
+        }
+      }
+    },
+    {
+      "symbol": "VRTX",
+      "local_security_id": "SEC000998",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.021904674353735665,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC000998.jsonl",
+          "sha256": "b57d0a66095c26affb22b6ffe2521e138d44a53755ce5ed00f53cd8832cfc97f"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/VRTX.jsonl",
+          "sha256": "df7e1561ed221ac41478c1a924f9ca8ac0769234bade21ab8164c6c0987a3388"
+        }
+      }
+    },
+    {
+      "symbol": "WDAY",
+      "local_security_id": "SEC001010",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.003804217540411159,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC001010.jsonl",
+          "sha256": "803febdc50d0033b5027912353f59e15da55eb150f67a9b333d2af7dca13a0f9"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/WDAY.jsonl",
+          "sha256": "a2766c8aefab394c7d14a7a77ec20d9d24ddd7c58a1b69cfd3288f36187a2447"
+        }
+      }
+    },
+    {
+      "symbol": "ZBRA",
+      "local_security_id": "SEC001052",
+      "observations_per_feed": 1366,
+      "max_daily_log_return_discrepancy": 0.007747672387270477,
+      "files": {
+        "alpaca": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/alpaca/membership_pit/SEC001052.jsonl",
+          "sha256": "17c0243534ff3a04ab20631be2f181dabee6704560e50d49a3bad5124906a620"
+        },
+        "tiingo": {
+          "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/normalized/membership_pit/ZBRA.jsonl",
+          "sha256": "7b855a0e4cc9ccbc43d59191605fd5821cf9cb6dde9730ac02bd1679fe2e4f26"
+        }
+      }
+    }
+  ],
+  "mapping_sha256": "55f0f3bbb5c4bed53839656ed36bcb7b6627a29798c08bf66615e6f418deba86",
+  "calendar": {
+    "path": "/Users/manpao/Downloads/ai-us-equity-portfolio-consultant/data/verification/xnys_calendar_trading_calendar_xnys-338ff44aa4752d8d_b1d7fda75f0a.json",
+    "sha256": "ff376b8d0f2a03dc84b93358deb56ed2bf95661939d7d017ff0321967bbd67df",
+    "basis": "XNYS_EXCHANGE_CALENDARS_4.13.2"
+  },
+  "candidate_counts": {
+    "alpaca_security_files": 1063,
+    "alpaca_nonempty_files": 667,
+    "tiingo_ticker_files": 896,
+    "tiingo_nonempty_files": 896,
+    "mapping_historical_symbols": 1097,
+    "runtime_screened_frozen_symbols": 23,
+    "admitted_matched_symbols": 23
+  },
+  "exclusions": [
+    {
+      "symbol": "A",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AAL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AAP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AAPL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ABBV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ABC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ABI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ABK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ABMD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ABNB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ABT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ACAS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ACE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ACGL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ACN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ACS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ACT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ADCT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ADI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ADM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ADNT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ADP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ADS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ADT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AEE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AEOS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AEP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AES",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AET",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AFL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AGL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AGN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AIG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AIV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AIZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AJG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AKS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ALAB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ALB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ALK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ALL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ALLE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ALNY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ALTR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ALXN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMAT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMCR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AME",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMGN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMLN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMTM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AMZN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ANDV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ANET",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ANF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ANR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ANSS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ANTM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AOC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AON",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AOS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APCC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APOL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APTV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "APY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ARE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ARES",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ARG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ARM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ARNC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ASD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ASH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ASIX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ASML",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ASN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ATI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ATO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ATVI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AVB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AVGO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AVP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AVY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AWK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AXON",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AXP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AYE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AYI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AZN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "AZO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BAC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BALL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BATRA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BATRK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BAX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BBBY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BBT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BBWI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BBY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BCR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BDK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BDX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BEAM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BEAS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BEN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BF.B",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BHF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BHGE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BHI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BIDU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BIG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BIIB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BIO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BIVV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BJS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BKNG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BKR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BLDR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BLK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BLL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BLS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BMC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BMET",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BMRN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BMS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BMY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BNI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BNY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BOL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BRCM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BRK.B",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BRL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BRO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BSC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BSX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BTU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BUD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BWA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BXLT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "BXP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "C",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CAG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CAH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CAM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CARR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CASY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CAT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CBE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CBG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CBH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CBOE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CBRE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CBS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CBSS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CCE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CCEP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CCI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CCL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CCU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CDAY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CDW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CDWC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CEG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CELG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CEPH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CERN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CFC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CFG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CFN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CHD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CHK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CHKP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CHRW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CIEN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CINF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CIT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CKFR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CLF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CLX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CMA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CMCSA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CMCSK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CME",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CMG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CMI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CMS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CMVT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CMX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CNC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CNP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CNX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COHR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COIN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COST",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COTY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "COV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CPAY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CPB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CPGX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CPRI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CPRT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CPT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CPWR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CRH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CRL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CRM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CRWD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CRWV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CSC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CSCO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CSGP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CSRA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CSX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTAS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTLT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTRA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTRP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTRX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTSH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTVA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CTXS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CVC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CVET",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CVG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CVH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CVNA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CVS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CVX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CXO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CZN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "CZR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "D",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DAL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DASH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DAY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DDOG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DDR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DDS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DECK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DELL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DFS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DGX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DHI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DHR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DIS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DISCA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DISCK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DISH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DJ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DLPH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DLR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DNB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DNR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DOC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DOCU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DOV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DOW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DPS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DPZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DRE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DRI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DTE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DTM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DTV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DUK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DVA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DVN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DWDP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DXC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DXCM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "DYN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EBAY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ECHO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ECL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ED",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EDS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EFX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EIX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ELV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EMBC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EMC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EME",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EMN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EMR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ENDP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ENPH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EOG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EOP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EPAM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EQ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EQIX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EQR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EQT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ERIC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ERIE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ERTS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ES",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ESRX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ESS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ESV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ETFC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ETN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ETR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ETSY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EVHC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EVRG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EXC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EXE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EXPD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EXPE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "EXR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "F",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FANG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FAST",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FBHS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FBIN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FCPT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FCX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FDC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FDO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FDS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FDX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FDXF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FER",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FERG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FHN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FICO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FII",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FIS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FISV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FITB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FIX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FLEX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FLIR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FLR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FLS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FLT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FMC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FMCN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FNM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FOSL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FOX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FOXA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FPL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FRC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FRE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FRT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FRX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FSLR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FTI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FTNT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FTR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FTRE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FTV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "FWLT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GAS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GCI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GDDY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GEHC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GEN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GENZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GEV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GFS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GGP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GHC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GILD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GIS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GLW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GMCR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GME",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GMGMQ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GNRC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GNW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GOLD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GOOG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GOOGL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GPC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GPN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GPS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GRAL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GRMN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GTX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "GWW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "H",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HAL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HANS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HAR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HAS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HBAN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HBI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HCA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HCBK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HCN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HCP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HCR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HES",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HET",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HFC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HIG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HII",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HLT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HMA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HNZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HOG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HON",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HONA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HOOD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HOT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HPC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HPE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HPQ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HRB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HRL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HRS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HSP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HST",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HSY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HUBB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HUM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "HWM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IACI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IACID",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IBKR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IBM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ICE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IEX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IFF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IGT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ILMN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "INFO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "INFY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "INSM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "INTC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "INTU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "INVH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IPG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IPGP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IQV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IRM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ISRG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ITT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ITW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "IVZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "J",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JAVA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JBGS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JBHT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JBL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JCI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JCP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JDSU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JEC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JEF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JKHY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JNJ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JNPR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JNS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JNY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JOY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JOYG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JPM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "JWN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "K",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KBH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KDP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KEY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KEYS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KFT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KHC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KIM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KKR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KLAC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KLG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KMB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KMI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KMX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KORS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KRFT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KSE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KSS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KSU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KTB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "KVUE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "L",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LAMR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LBTYA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LBTYK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LCID",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LDOS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LEAP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LEG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LEH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LEN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LEXEA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LHX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LIFE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LII",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LILA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LILAK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LIN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LINTA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LITE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LIZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LKQ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LLL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LLTC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LLY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LMCA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LMCK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LMT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LNC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LNT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LOGI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LOW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LRCX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LSI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LSXMA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LSXMK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LTD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LTHM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LTR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LUK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LUMN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LUV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LVLT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LVNTA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LVS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LXK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LYB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "LYV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "M",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MAA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MAC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MAR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MAS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MAT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MBC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MBGL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MBI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MCD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MCHP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MCK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MCO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MDB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MDLZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MDP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MDT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MEDI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MEE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MEL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MER",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MET",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "META",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MFE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MGM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MHFI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MHK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MHP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MHS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MICC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MIL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MJN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MKC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MKTX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MLM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MMC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MMI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MMM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MNK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MNST",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MOH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MOLX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MON",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MOS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MOT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MPC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MPWR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MRK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MRO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MRP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MRSH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MRVL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MSCI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MSFT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MSI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MSTR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MTB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MTCH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MTD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MTG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MTW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MUR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MWV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MWW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MXIM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "MYL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NAVI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NBIS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NBL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NBR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NCC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NCLH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NCR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NDAQ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NDSN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NEE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NEM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NFLX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NFX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NGVT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NIHD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NKE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NKTR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NLOK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NLSN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NOC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NOV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NOVL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NOW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NRG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NSC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NSM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NTAP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NTES",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NTLI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NTRS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NUAN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NUE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NVDA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NVLS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NVR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NVT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NWL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NWS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NWSA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NXPI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NYT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "NYX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "O",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ODFL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ODP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "OGN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "OI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "OKE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "OKTA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "OMC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "OMX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ON",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ONL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ORCL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ORLY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "OTIS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "OXY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PANW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PARA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PAYC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PAYX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PBCT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PBG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PBI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PCAR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PCG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PCL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PCLN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PCP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PCS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PDCO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PDD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PEAK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PEG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PENN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PEP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PETM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PFE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PFG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PGL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PGN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PGR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PHIN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PHM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PKG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PKI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PLD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PLL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PLTR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PMCS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PNC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PNR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PNW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PODD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "POM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "POOL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PPDI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PPG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PPL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PRGO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PRSP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PRU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PSA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PSKY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PSX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PTC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PTEN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PTON",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PTV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PVH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PWR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PXD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "PYPL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "Q",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "QCOM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "QCP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "QEP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "QGEN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "QLGC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "QRTEA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "QRVO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "QVCA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "R",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RAI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RAL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RCL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RDC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "REG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "REGN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "REZI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RHI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RHT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RIG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RIMM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RIVN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RJF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RKLB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RMD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ROH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ROK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ROL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ROP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ROST",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RRC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RRD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RSG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RSH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RTN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RTX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RVTY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "RYAAY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "S",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SAF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SAI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SANM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SATS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SBAC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SBL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SBNY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SBUX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SCG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SCHW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SEDG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SEE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SEPR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SGEN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SGP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SHLD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SHOP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SHPG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SHW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SIAL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SIG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SII",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SIRI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SIVB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SJM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SLB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SLE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SLG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SLM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SLR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SLVM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SMCI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SNA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SNDK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SNI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SNV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SOLS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SOLV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SOV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SPCX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SPG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SPGI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SPLK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SPLS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SRCL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SRE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SSP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STJ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STLD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STRZA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "STZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SUN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SUNW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SVU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SWK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SWKS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SWN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SWY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SYF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SYK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SYMC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "SYY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "T",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TAP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TCOM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TDC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TDG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TDY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TEAM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TECH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TEG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TEK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TEL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TER",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TEVA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TEX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TFC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TFCF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TFCFA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TFX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TGNA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TGT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "THC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TIE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TIF",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TIN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TJX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TKO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TLAB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TMK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TMO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TMUS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TPL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TPR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TRB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TRGP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TRI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TRIP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TRMB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TROW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TRV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TSCO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TSG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TSLA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TSN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TSO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TSS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TTD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TWC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TWTR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TWX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TXN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TXT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TXU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TYC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "TYL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UA.C",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UAA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UAUA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UBER",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UDR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UHS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UIS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UNH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UNM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UNP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UPS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "URBN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "URI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "USB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UST",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UTX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "UVN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "V",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VAR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VEEV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VFC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VGNT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VIAB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VIAC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VICI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VIP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VLO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VLTO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VMC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VMED",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VNO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VNT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VOD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VREX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VRSK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VRSN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VRT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VSCO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VSM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VSNT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VST",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VTR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VTRS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "VZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WAB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WAG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WAMUQ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WAT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WBA",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WBD",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WCG",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WCRX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WDC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WEC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WELL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WEN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WFC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WFM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WFMI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WFR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WFT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WHR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WIN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WLP",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WLTW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WMB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WMI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WMT",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WPI",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WPO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WPX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WRB",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WRK",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WSM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WST",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WTW",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WU",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WWY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WYE",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WYN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "WYNN",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "X",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XEC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XEL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XLNX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XMSR",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XOM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XRAY",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XRX",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XTO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XYL",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "XYZ",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "YHOO",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "YUM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "YUMC",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ZBH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ZIMV",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ZION",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ZM",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ZMH",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ZS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    },
+    {
+      "symbol": "ZTS",
+      "reason": "Outside pre-frozen 23-name restricted cohort; not reranked using strategy outcomes"
+    }
+  ],
+  "selection_limit": "Only the frozen 23 symbols are runtime price/action checked here. Full-window quality selection creates future-coverage and survivorship bias; no point-in-time asset-selection certification.",
+  "return_definitions": {
+    "alpaca": "Raw IEX close-to-close decimal price returns, not total returns; action completeness unverified",
+    "tiingo": "Vendor-adjusted-close ratios captured in 2026; no recorded dividend/split in selected window, not PIT back-adjustment or executable quotes"
+  },
+  "limitations": [
+    "Restricted common survivors with complete full-window coverage selected before strategy outcomes, but with future coverage knowledge.",
+    "Zero recorded Tiingo dividends/splits does not establish complete corporate-action or identity correctness.",
+    "Rights, execution prices and full PIT validity are not certified; strict VALIDATED gates unchanged."
+  ]
+}

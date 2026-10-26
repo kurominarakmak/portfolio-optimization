@@ -1,0 +1,16 @@
+# Limitations and claim boundaries
+
+- No actual portfolio, broker credentials/approval, account eligibility or licensed investable return history was supplied. Offline fixtures must not be mistaken for user holdings.
+- Webull region/SDK support does not prove account entitlement. Live authentication, rate-limit behavior, pagination completeness and statement reconciliation require a real read-only integration test. Unknown response schemas or nonempty pagination must fail closed.
+- This engine contains no trade execution. Share previews are not executable orders; taxes, settlement, tax lots, fractional-share rules and liquidity remain incomplete.
+- Public academic industry portfolios can support exploratory diagnostics, not proof for US stock/ETF implementation. Revised historical data and constructed portfolio returns are not point-in-time executable prices. Current holdings are not historical holdings.
+- Aggregate daily returns imply idealized boundary reallocation; they do not support a verified next-open execution price or separate overnight returns from intraday returns. A one-session execution delay or actual open/close observations must be validated in the investable experiment before claims about executable returns.
+- Zero excess priors are transparent fallback assumptions, not market equilibrium or alpha. All cash can dominate a one-day mean–tail-risk objective with zero mean; an uninformative result is retained.
+- Return innovation covariance and uncertainty about means are different objects. Resampling historical residuals shifted to posterior means is an engineering model; it does not reproduce a complete Bayesian posterior predictive distribution or the shrinkage covariance exactly.
+- Gaussian tails miss skew, tail dependence and changing volatility. Bootstrap cannot generate unseen crashes and assumes local stationarity. More simulations reduce Monte Carlo error, not historical estimation error.
+- Sample/tail count thresholds, priors, risk aversion and decision thresholds (including .25 sensitivity L1 distance) are not calibrated. A proposal-bound supplied lower bound or evidence label does not by itself validate forecast accuracy. Independent calendar coverage and investability are required declarations; they cannot be inferred from a well-formed return matrix.
+- Annual volatility assumes sufficiently weak return autocorrelation. ES and drawdown horizons cannot be converted with a square-root-time shortcut.
+- Optimization scenarios cannot also establish independent superiority of the selected allocation. Conditional block intervals and sensitivity checks leave model misspecification and selection uncertainty.
+- Simple benchmarks may have different cash mandates; disclose differences and avoid interpreting unrestricted cash-versus-equity rankings as pure optimizer skill.
+- No demonstrated improvement, investor suitability, future profitability or production readiness is claimed. Formal coverage/independence tests, full robust optimization and calibrated posterior views need additional data and validation.
+- Several mandatory papers were accessible only as abstracts or indexed excerpts; exact access is in references.md. Further full-text review is required before implementing extensions based on them.
